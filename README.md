@@ -15,16 +15,16 @@ what_i_do:
   - Integrating Security into DevOps (DevSecOps)
 
 passionate_about:
-  - =F0=9F=9B=A1=EF=B8=8F Cybersecurity & Ethical Hacking
-  - =F0=9F=A4=96 Exploring AiOps for Smarter Infrastructure
-  - =F0=9F=90=8D Python Scripting & Linux System Administration
-  - =F0=9F=8F=97=EF=B8=8F Building Resilient Cloud-Native Solutions
+  - Cybersecurity & Ethical Hacking
+  - Exploring AiOps for Smarter Infrastructure
+  - Python Scripting & Linux System Administration
+  - Building Resilient Cloud-Native Solutions
 
 currently_learning:
-  - =F0=9F=A7=A0 Advanced AiOps & Machine Learning Workflows
-  - =E2=98=81=EF=B8=8F AWS Solutions Architect Professional Level
-  - =F0=9F=9B=B0=EF=B8=8F Terraform & Infrastructure as Code (IaC)
-  - =F0=9F=9B=A1=EF=B8=8F Red Teaming & Penetration Testing
+  - Advanced AiOps & Machine Learning Workflows
+  - AWS Solutions Architect Professional Level
+  - Terraform & Infrastructure as Code (IaC)
+  - Red Teaming & Penetration Testing
 
 open_to:
   - Remote roles in DevOps / Cloud Security
@@ -45,5 +45,23 @@ open_to:
  * AWS Trained Generative AI Practitioner
  * Certified in Cybersecurity (Training Complete)
  * Linux System Administration Mastery
- * Modern DevOps & CI/CD Automation Training
+ * Modern DevOps & CI/CD Automation Training## Connect with Me
+
+- LinkedIn: https://www.linkedin.com/in/ruveeha-ashfaq-632b15378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
+- GitHub: https://github.com/ruveeha33 
+
+ Open to Opportunities in:
+- Linux System Administration (L1 / L2)  
+- Cloud Support and AWS Cloud Practitioner roles  
+- DevOps and Junior DevOps Engineering roles  
+- Containerization using Docker  
+- Automation using Bash and Python (beginner to intermediate)  
+- AI and Generative AI fundamentals  
+- Open-source contributions and collaborative projects  
+- Technical study groups, mentorship, and continuous learning  
+
+Passionate about building secure, scalable systems and continuously growing in cloud, DevOps, and automation technologies.
+
+
+
 
