@@ -1,5 +1,5 @@
 - 📫 How to reach me: ...#
--  Hi there =F0=9F=91=8B I'm [ruveeha33]
+-  Hi there I'm RUVEEHA ASHFAQ!
 
 ### =F0=9F=9A=80 About Me🎗️
 
@@ -32,7 +32,7 @@ open_to:
   - Hackathon teams
   - Tech community networking
 
-=F0=9F=9B=A0=EF=B8=8F Tech Stack & Skills
+ Tech Stack & Skills
 | Category | Tools & Technologies |
 |---|---|
 | Cloud | |
@@ -50,18 +50,18 @@ open_to:
 <p align=3D"left">
 <img height=3D"180em" src=3D"
 https://www.google.com/search?q=3Dhttps://github-readme-stats.vercel.app/ap=
-i%3Fusername%3DYOUR_GITHUB_USERNAME%26show_icons%3Dtrue%26theme%3Dtokyonigh=
+i%3Fusername%3Druveeha33%26show_icons%3Dtrue%26theme%3Dtokyonigh=
 t%26include_all_commits%3Dtrue%26count_private%3Dtrue"
 />
 <img height=3D"180em" src=3D"
 https://www.google.com/search?q=3Dhttps://github-readme-stats.vercel.app/ap=
-i/top-langs/%3Fusername%3DYOUR_GITHUB_USERNAME%26layout%3Dcompact%26theme%3=
+i/top-langs/%3Fusername%3Druveeha33E%26layout%3Dcompact%26theme%3=
 Dtokyonight"
 />
 </p>
 =F0=9F=93=AB Connect With Me
 <p align=3D"left">
-<a href=3D"YOUR_LINKEDIN_URL"><img src=3D"
+<a href=3D"https://www.linkedin.com/in/ruveeha-ashfaq-632b15378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src=3D"
 https://www.google.com/search?q=3Dhttps://img.shields.io/badge/LinkedIn-007=
 7B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite"
 /></a>
@@ -69,7 +69,7 @@ https://www.google.com/search?q=3Dhttps://img.shields.io/badge/LinkedIn-007=
 https://www.google.com/search?q=3Dhttps://img.shields.io/badge/Email-D14836=
 %3Fstyle%3Dfor-the-badge%26logo%3Dgmail%26logoColor%3Dwhite"
 /></a>
-<a href=3D"YOUR_PORTFOLIO_URL"><img src=3D"
+<a href=3D"https://github.com/ruveeha33"><img src=3D
 https://www.google.com/search?q=3Dhttps://img.shields.io/badge/Portfolio-00=
 0000%3Fstyle%3Dfor-the-badge%26logo%3Dabout.me%26logoColor%3Dwhite"
 /></a>
@@ -88,11 +88,11 @@ Content-Transfer-Encoding: quoted-printable
 b README.md. I have organized it to be visually striking, professional, and=
  easy to read, mirroring the &quot;developer-style&quot; aesthetic from you=
 r image.<div dir=3D"auto">=F0=9F=93=8B Full Profile Code</div><div dir=3D"a=
-uto"># Hi there =F0=9F=91=8B I&#39;m [Your Name]</div><div dir=3D"auto"><br=
+uto"># Hi there =F0=9F=91=8B I&#39;m Ruveeha Ashfaq</div><div dir=3D"auto"><br=
 ></div><div dir=3D"auto">### =F0=9F=9A=80 About Me</div><div dir=3D"auto"><=
-br></div><div dir=3D"auto">```yaml</div><div dir=3D"auto">name: [Your Name]=
+br></div><div dir=3D"auto">```yaml</div><div dir=3D"auto">name: Ruveeha Ashfaq=
 </div><div dir=3D"auto">role: Aspiring DevOps &amp; Cloud Engineer</div><di=
-v dir=3D"auto">location: [Your Location]</div><div dir=3D"auto"><br></div><=
+v dir=3D"auto">location: Mandi Bahauddin,Punjab, Pakistan</div><div dir=3D"auto"><br></div><=
 div dir=3D"auto">what_i_do:</div><div dir=3D"auto">=C2=A0 - Automating Infr=
 astructure &amp; CI/CD Pipelines</div><div dir=3D"auto">=C2=A0 - Containeri=
 zation &amp; Orchestration (Docker, Kubernetes)</div><div dir=3D"auto">=C2=
@@ -129,19 +129,18 @@ ion Training</div><div dir=3D"auto">=F0=9F=93=8A GitHub Activity &amp; Stat=
 s</div><div dir=3D"auto">&lt;p align=3D&quot;left&quot;&gt;</div><div dir=
 =3D"auto">&lt;img height=3D&quot;180em&quot; src=3D&quot;<a href=3D"https:/=
 /www.google.com/search?q=3Dhttps://github-readme-stats.vercel.app/api%3Fuse=
-rname%3DYOUR_GITHUB_USERNAME%26show_icons%3Dtrue%26theme%3Dtokyonight%26inc=
+rname%3Druveeha33%26show_icons%3Dtrue%26theme%3Dtokyonight%26inc=
 lude_all_commits%3Dtrue%26count_private%3Dtrue">https://www.google.com/sear=
-ch?q=3Dhttps://github-readme-stats.vercel.app/api%3Fusername%3DYOUR_GITHUB_=
-USERNAME%26show_icons%3Dtrue%26theme%3Dtokyonight%26include_all_commits%3Dt=
+ch?q=3Dhttps://github-readme-stats.vercel.app/api%3Fusername%3Druveeha33%26show_icons%3Dtrue%26theme%3Dtokyonight%26include_all_commits%3Dt=
 rue%26count_private%3Dtrue</a>&quot; /&gt;</div><div dir=3D"auto">&lt;img h=
 eight=3D&quot;180em&quot; src=3D&quot;<a href=3D"https://www.google.com/sea=
 rch?q=3Dhttps://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3D=
-YOUR_GITHUB_USERNAME%26layout%3Dcompact%26theme%3Dtokyonight">https://www.g=
-oogle.com/search?q=3Dhttps://github-readme-stats.vercel.app/api/top-langs/%=
-3Fusername%3DYOUR_GITHUB_USERNAME%26layout%3Dcompact%26theme%3Dtokyonight</=
+ruveeha33%26layout%3Dcompact%26theme%3Dtokyonight">https://www.g=
+oogle.com/search?q=3Dhttps://github-readme-stats.vercel.app/api/top-langs/%=https://www.linkedin.com/in/ruveeha-ashfaq-632b15378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+3Fusername%3Druveeha33%26layout%3Dcompact%26theme%3Dtokyonight</=
 a>&quot; /&gt;</div><div dir=3D"auto">&lt;/p&gt;</div><div dir=3D"auto">=F0=
 =9F=93=AB Connect With Me</div><div dir=3D"auto">&lt;p align=3D&quot;left&q=
-uot;&gt;</div><div dir=3D"auto">&lt;a href=3D&quot;YOUR_LINKEDIN_URL&quot;&=
+uot;&gt;</div><div dir=3D"auto">&lt;a href=3D&quot;&quot;&=
 gt;&lt;img src=3D&quot;<a href=3D"https://www.google.com/search?q=3Dhttps:/=
 /img.shields.io/badge/LinkedIn-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlink=
 edin%26logoColor%3Dwhite">https://www.google.com/search?q=3Dhttps://img.shi=
@@ -153,7 +152,7 @@ earch?q=3Dhttps://img.shields.io/badge/Email-D14836%3Fstyle%3Dfor-the-badge=
 %26logo%3Dgmail%26logoColor%3Dwhite">https://www.google.com/search?q=3Dhttp=
 s://img.shields.io/badge/Email-D14836%3Fstyle%3Dfor-the-badge%26logo%3Dgmai=
 l%26logoColor%3Dwhite</a>&quot; /&gt;&lt;/a&gt;</div><div dir=3D"auto">&lt;=
-a href=3D&quot;YOUR_PORTFOLIO_URL&quot;&gt;&lt;img src=3D&quot;<a href=3D"h=
+a href=3D&quot;&quot;&gt;&lt;img src=3D&quot;<a href=3D"h=
 ttps://www.google.com/search?q=3Dhttps://img.shields.io/badge/Portfolio-000=
 000%3Fstyle%3Dfor-the-badge%26logo%3Dabout.me%26logoColor%3Dwhite">https://=
 www.google.com/search?q=3Dhttps://img.shields.io/badge/Portfolio-000000%3Fs=
