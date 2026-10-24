@@ -154,14 +154,14 @@ Our shared work includes lesson preparation, demonstrations, recording, quizzes,
 
 ## GitHub activity & languages
 
-<a href="https://github.com/ruveeha33"><img src="https://github-readme-activity-graph.vercel.app/graph?username=ruveeha33&amp;bg_color=131426&amp;color=C7C2D8&amp;line=C084FC&amp;point=22D3EE&amp;area=true&amp;area_color=7C3AED&amp;hide_border=true&amp;custom_title=Public%20contribution%20activity" width="100%" alt="Ruveeha's public GitHub contribution activity over the last 31 days" /></a>
+<a href="./contribution-data.json"><img src="./contribution-activity.svg" width="100%" alt="GitHub contribution activity snapshot, January through 24 October 2026; October is partial" /></a>
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=ruveeha33&amp;show_icons=true&amp;hide_border=true&amp;bg_color=131426&amp;title_color=C084FC&amp;icon_color=22D3EE&amp;text_color=C7C2D8&amp;rank_icon=github" width="49%" alt="Ruveeha's public GitHub activity statistics" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ruveeha33&amp;layout=compact&amp;hide_border=true&amp;bg_color=131426&amp;title_color=C084FC&amp;text_color=C7C2D8&amp;langs_count=6" width="49%" alt="Language distribution in Ruveeha's public repositories" />
 </p>
 
-<sub>Public GitHub activity and repository language distribution, not skill ratings. Language totals may include documentation and learning repositories. Cards use external services; GitHub's contribution graph remains the primary activity record.</sub>
+<sub>Contribution chart: dated snapshot of GitHub’s displayed calendar, with October partial; click for the source counts. Statistics and language cards use external services. Language distribution can include documentation and learning repositories and does not measure proficiency. See GitHub’s contribution calendar below for current activity.</sub>
 
 <img src="./section-divider.svg" width="100%" alt="" />
 
