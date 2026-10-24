@@ -76,15 +76,9 @@ Python, Linux and defensive security projects, built through study, hands-on lab
 
 ## 💻 Tech Stack
 
-| Area | Tools and topics |
-| --- | --- |
-| Programming & automation | Python, Flask, FastAPI, Bash, Python Automation, REST APIs, Git, Jira |
-| Linux & cloud | Linux, Rocky Linux, Red Hat Linux, AWS, Cloud Computing, Linux Administration, SSH |
-| DevOps & observability | Docker, Docker Compose, GitHub Actions, CI/CD, DevOps, Prometheus, Grafana |
-| Security & investigation | Cybersecurity, Information Security, Network Security, Incident Response, Access Control, Log Analysis, Security Automation, SHA256, Backup & Recovery |
-| AI & ongoing studies | Artificial Intelligence, Generative AI, Machine Learning, Anomaly Detection |
+<a href="./professional-background.md#skills-and-learning"><img src="./tech-stack-purple.svg" width="100%" alt="Programming &amp; automation: Python, Flask, FastAPI, Bash, Python Automation, REST APIs, Git, Jira; Linux &amp; cloud: Linux, Rocky Linux, Red Hat Linux, AWS, Cloud Computing, Linux Administration, SSH; DevOps &amp; observability: Docker, Docker Compose, GitHub Actions, CI/CD, DevOps, Prometheus, Grafana; Security &amp; investigation: Cybersecurity, Information Security, Network Security, Incident Response, Access Control, Log Analysis, Security Automation, SHA256, Backup &amp; Recovery; AI &amp; ongoing studies: Artificial Intelligence, Generative AI, Machine Learning, Anomaly Detection" /></a>
 
-Some of these tools appear in my projects; others are part of my ongoing studies. [Skills and learning context](professional-background.md#skills-and-learning).
+Tools used across my projects and labs, alongside topics I’m studying. [Skills and learning context](professional-background.md#skills-and-learning).
 
 <img src="./section-divider.svg" width="100%" alt="" />
 
