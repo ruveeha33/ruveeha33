@@ -76,7 +76,55 @@ Python, Linux and defensive security projects, built through study, hands-on lab
 
 ## 💻 Tech Stack
 
-<a href="./professional-background.md#skills-and-learning"><img src="./tech-stack-purple.svg" width="100%" alt="Programming &amp; automation: Python, Flask, FastAPI, Bash, Python Automation, REST APIs, Git, Jira; Linux &amp; cloud: Linux, Rocky Linux, Red Hat Linux, AWS, Cloud Computing, Linux Administration, SSH; DevOps &amp; observability: Docker, Docker Compose, GitHub Actions, CI/CD, DevOps, Prometheus, Grafana; Security &amp; investigation: Cybersecurity, Information Security, Network Security, Incident Response, Access Control, Log Analysis, Security Automation, SHA256, Backup &amp; Recovery; AI &amp; ongoing studies: Artificial Intelligence, Generative AI, Machine Learning, Anomaly Detection" /></a>
+**Programming & automation**
+
+![Python](https://img.shields.io/badge/Python-4C3275?style=for-the-badge&logoColor=E9D5FF&logo=python)
+![Flask](https://img.shields.io/badge/Flask-654493?style=for-the-badge&logoColor=E9D5FF&logo=flask)
+![FastAPI](https://img.shields.io/badge/FastAPI-593D88?style=for-the-badge&logoColor=E9D5FF&logo=fastapi)
+![Bash](https://img.shields.io/badge/Bash-7650A0?style=for-the-badge&logoColor=E9D5FF&logo=gnubash)
+![Python Automation](https://img.shields.io/badge/Python_Automation-4C3275?style=for-the-badge&logoColor=E9D5FF&logo=python)
+![REST APIs](https://img.shields.io/badge/REST_APIs-654493?style=for-the-badge&logoColor=E9D5FF)
+![Git](https://img.shields.io/badge/Git-593D88?style=for-the-badge&logoColor=E9D5FF&logo=git)
+![Jira](https://img.shields.io/badge/Jira-7650A0?style=for-the-badge&logoColor=E9D5FF&logo=jira)
+
+**Linux & cloud**
+
+![Linux](https://img.shields.io/badge/Linux-4C3275?style=for-the-badge&logoColor=E9D5FF&logo=linux)
+![Rocky Linux](https://img.shields.io/badge/Rocky_Linux-654493?style=for-the-badge&logoColor=E9D5FF&logo=rockylinux)
+![Red Hat Linux](https://img.shields.io/badge/Red_Hat_Linux-593D88?style=for-the-badge&logoColor=E9D5FF&logo=redhat)
+![AWS](https://img.shields.io/badge/AWS-7650A0?style=for-the-badge&logoColor=E9D5FF&logo=amazonwebservices)
+![Cloud Computing](https://img.shields.io/badge/Cloud_Computing-4C3275?style=for-the-badge&logoColor=E9D5FF)
+![Linux Administration](https://img.shields.io/badge/Linux_Administration-654493?style=for-the-badge&logoColor=E9D5FF&logo=linux)
+![SSH](https://img.shields.io/badge/SSH-593D88?style=for-the-badge&logoColor=E9D5FF)
+
+**DevOps & observability**
+
+![Docker](https://img.shields.io/badge/Docker-4C3275?style=for-the-badge&logoColor=E9D5FF&logo=docker)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-654493?style=for-the-badge&logoColor=E9D5FF&logo=docker)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-593D88?style=for-the-badge&logoColor=E9D5FF&logo=githubactions)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-7650A0?style=for-the-badge&logoColor=E9D5FF&logo=githubactions)
+![DevOps](https://img.shields.io/badge/DevOps-4C3275?style=for-the-badge&logoColor=E9D5FF)
+![Prometheus](https://img.shields.io/badge/Prometheus-654493?style=for-the-badge&logoColor=E9D5FF&logo=prometheus)
+![Grafana](https://img.shields.io/badge/Grafana-593D88?style=for-the-badge&logoColor=E9D5FF&logo=grafana)
+
+**Security & investigation**
+
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-4C3275?style=for-the-badge&logoColor=E9D5FF)
+![Information Security](https://img.shields.io/badge/Information_Security-654493?style=for-the-badge&logoColor=E9D5FF)
+![Network Security](https://img.shields.io/badge/Network_Security-593D88?style=for-the-badge&logoColor=E9D5FF)
+![Incident Response](https://img.shields.io/badge/Incident_Response-7650A0?style=for-the-badge&logoColor=E9D5FF)
+![Access Control](https://img.shields.io/badge/Access_Control-4C3275?style=for-the-badge&logoColor=E9D5FF)
+![Log Analysis](https://img.shields.io/badge/Log_Analysis-654493?style=for-the-badge&logoColor=E9D5FF)
+![Security Automation](https://img.shields.io/badge/Security_Automation-593D88?style=for-the-badge&logoColor=E9D5FF&logo=python)
+![SHA256](https://img.shields.io/badge/SHA256-7650A0?style=for-the-badge&logoColor=E9D5FF)
+![Backup & Recovery](https://img.shields.io/badge/Backup_%26_Recovery-4C3275?style=for-the-badge&logoColor=E9D5FF)
+
+**AI & ongoing studies**
+
+![Artificial Intelligence](https://img.shields.io/badge/Artificial_Intelligence-4C3275?style=for-the-badge&logoColor=E9D5FF)
+![Generative AI](https://img.shields.io/badge/Generative_AI-654493?style=for-the-badge&logoColor=E9D5FF)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-593D88?style=for-the-badge&logoColor=E9D5FF&logo=scikitlearn)
+![Anomaly Detection](https://img.shields.io/badge/Anomaly_Detection-7650A0?style=for-the-badge&logoColor=E9D5FF)
 
 Tools used across my projects and labs, alongside topics I’m studying. [Skills and learning context](professional-background.md#skills-and-learning).
 
