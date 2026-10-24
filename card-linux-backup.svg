@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="226" viewBox="0 0 560 226" role="img" aria-labelledby="title desc">
+<title id="title">Linux Backup &amp; Recovery</title><desc id="desc">Documented backup &amp; restoration · Linux · rsync · GPG · SHA256</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#171329"/><stop offset="1" stop-color="#0C1426"/></linearGradient><linearGradient id="accent"><stop stop-color="#34D399"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+<rect x="1" y="1" width="558" height="224" rx="20" fill="url(#bg)" stroke="#38314F"/>
+<path d="M21 1h518" stroke="url(#accent)" stroke-width="3"/>
+<circle cx="515" cy="45" r="96" fill="#34D399" opacity=".07"/>
+<g transform="translate(461 37) scale(.85)" fill="none" stroke="#34D399" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="32" cy="15" rx="23" ry="9"/><path d="M9 15v34c0 12 46 12 46 0V15M9 31c0 12 46 12 46 0"/></g>
+<text x="28" y="35" fill="#34D399" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" letter-spacing="2" font-weight="700">05 / FEATURED PROJECT</text>
+<text x="28" y="86" fill="#F8F5FF" font-family="DejaVu Sans,Arial,sans-serif" font-size="27" font-weight="700">Linux Backup &amp; Recovery</text>
+<text x="28" y="119" fill="#C7C2D8" font-family="DejaVu Sans,Arial,sans-serif" font-size="15">Documented backup &amp; restoration</text>
+<line x1="28" y1="145" x2="532" y2="145" stroke="#34304A"/>
+<text x="28" y="174" fill="#34D399" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="600">Linux · rsync · GPG · SHA256</text>
+<text x="28" y="204" fill="#ABA4C0" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" letter-spacing="1.4">HR-PRESENTS · COLLABORATIVE ENGINEERING</text>
+</svg>

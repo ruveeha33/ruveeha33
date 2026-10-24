@@ -30,16 +30,48 @@ I build practical software and develop my skills through **study, hands-on labs 
 
 At **[HR-Presents](https://github.com/HR-Presents)**, I work alongside **[Haziq Afzal](https://github.com/HaziqBinAfzal), Co-Founder & CTO**. We share ownership and credit across product planning, implementation, testing, troubleshooting, documentation and technical education.
 
+<img src="./section-divider.svg" width="100%" alt="" />
+
 ## Featured engineering work
 
-| Project | Work and contribution | Explore |
-| :--- | :--- | :--- |
-| **[NuclearShield](https://github.com/ruveeha33/NuclearShield)** | Read-only educational nuclear cybersecurity evidence analysis: provenance, findings, assurance, audit and application observability | [Case study and demo](demo-gallery.md#nuclearshield) · [Verified source run](verification.md) |
-| **[Sentrix V1](demo-gallery.md#sentrix-v1)** | Joint HR-Presents product combining Bandit, Pylint, Radon, Black and syntax checks with structured reporting | [Public product overview](demo-gallery.md#sentrix-v1) |
-| **[AegisLog](https://github.com/HR-Presents/AegisLog)** | Joint defensive log investigation product with source-preserving analysis, evidence review and local HTML reports | [Demonstration and evidence](demo-gallery.md#aegislog) |
-| **[AI Log Analyzer](https://github.com/ruveeha33/AI-Log-Analyzer)** | Developed the **Flask backend and API handling**; Haziq contributed frontend/API integration and Ambreen contributed classification logic | [Full team credits](https://github.com/ruveeha33/AI-Log-Analyzer#team-roles) |
-| **[Linux Backup & Recovery](https://github.com/ruveeha33/linux-backup-recovery-system)** | Team workflow using rsync, tar, GPG, SHA256, SSH and cron, documented through restoration evidence | [Workflow and contributors](professional-background.md#project-contributions-and-credits) |
-| **[Jira Python Automation](https://github.com/ruveeha33/jira-python-automation-bot)** | Joint Python REST API project for Jira issue creation and workflow tasks | [Repository](https://github.com/ruveeha33/jira-python-automation-bot) |
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/ruveeha33/NuclearShield"><img src="./card-nuclearshield.svg" width="100%" alt="NuclearShield — Cybersecurity evidence & assurance" /></a>
+<p>Read-only educational nuclear cybersecurity evidence analysis: provenance, findings, assurance, audit and application observability</p>
+<p><a href="demo-gallery.md#nuclearshield">Case study and demo</a> · <a href="verification.md">Verified source run</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="demo-gallery.md#sentrix-v1"><img src="./card-sentrix.svg" width="100%" alt="Sentrix V1 — Python security & code quality" /></a>
+<p>Joint HR-Presents product combining Bandit, Pylint, Radon, Black and syntax checks with structured reporting</p>
+<p><a href="demo-gallery.md#sentrix-v1">Public product overview</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/HR-Presents/AegisLog"><img src="./card-aegislog.svg" width="100%" alt="AegisLog — Defensive log investigation" /></a>
+<p>Joint defensive log investigation product with source-preserving analysis, evidence review and local HTML reports</p>
+<p><a href="demo-gallery.md#aegislog">Demonstration and evidence</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/ruveeha33/AI-Log-Analyzer"><img src="./card-ai-log.svg" width="100%" alt="AI Log Analyzer — Collaborative log-analysis dashboard" /></a>
+<p>Developed the <strong>Flask backend and API handling</strong>; Haziq contributed frontend/API integration and Ambreen contributed classification logic</p>
+<p><a href="https://github.com/ruveeha33/AI-Log-Analyzer#team-roles">Full team credits</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/ruveeha33/linux-backup-recovery-system"><img src="./card-linux-backup.svg" width="100%" alt="Linux Backup & Recovery — Documented backup & restoration" /></a>
+<p>Team workflow using rsync, tar, GPG, SHA256, SSH and cron, documented through restoration evidence</p>
+<p><a href="professional-background.md#project-contributions-and-credits">Workflow and contributors</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/ruveeha33/jira-python-automation-bot"><img src="./card-jira.svg" width="100%" alt="Jira Python Automation — Issue creation & workflow tasks" /></a>
+<p>Joint Python REST API project for Jira issue creation and workflow tasks</p>
+<p><a href="https://github.com/ruveeha33/jira-python-automation-bot">Repository</a></p>
+</td>
+</tr>
+</table>
 
 **[Open the demo gallery →](demo-gallery.md)** Project context, original evidence, contributor roles and operating limits.
 
@@ -47,6 +79,8 @@ At **[HR-Presents](https://github.com/HR-Presents)**, I work alongside **[Haziq 
 
 **More work:** [SFVDS](https://github.com/ruveeha33/sfvds) · [Smart Mount Manager](https://github.com/ruveeha33/Smart_Mount_Manager) · [LinuxOps Enterprise Lab](https://github.com/HaziqBinAfzal/linuxops-enterprise-lab)  
 **Learning evidence:** [AWS Cloud Practitioner](https://github.com/ruveeha33/Trained-AWS-Cloud-Practitioner) · [Generative AI training](https://github.com/ruveeha33/Trained-AWS-Generative-AI-Practitioner) · [ISC2 domain courses](https://github.com/ruveeha33/ISC2-CC-Training-Certs-Repo)
+
+<img src="./section-divider.svg" width="100%" alt="" />
 
 ## 💻 Tech Stack
 
@@ -102,7 +136,11 @@ At **[HR-Presents](https://github.com/HR-Presents)**, I work alongside **[Haziq 
 
 These tags describe tools used in documented projects and areas of ongoing study. They are not proficiency ratings or certification claims. [Skills and learning context](professional-background.md#skills-and-learning).
 
+<img src="./section-divider.svg" width="100%" alt="" />
+
 ## Collaboration & teaching
+
+<img src="./founders-panel.svg" width="100%" alt="HR-Presents founders: Ruveeha Ashfaq — Co-Founder &amp; CEO; Haziq Afzal — Co-Founder &amp; CTO" />
 
 **Haziq Afzal — Co-Founder & CTO, HR-Presents · Udemy Instructor**  
 [GitHub](https://github.com/HaziqBinAfzal) · [LinkedIn](https://www.linkedin.com/in/haziq-afzal/)
@@ -111,12 +149,16 @@ These tags describe tools used in documented projects and areas of ongoing study
 
 Co-created and co-presented by **Ruveeha Ashfaq and Haziq Afzal** under HR-Presents.
 
-| Course | Focus |
-| :--- | :--- |
-| **[Docker Pro Skills: Build, Secure & Deploy Applications](https://www.udemy.com/course/docker-mastery-from-beginner-to-job-ready/)** | Containers, images, Dockerfiles, Compose, networking, storage, security, troubleshooting and application delivery |
-| **[Think Before You Click: The Online Safety Course](https://www.udemy.com/course/think-before-you-click-the-online-safety-course/)** | Scams, phishing, account protection, privacy, AI deepfakes and safer everyday digital decisions |
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://www.udemy.com/course/docker-mastery-from-beginner-to-job-ready/"><img src="./card-course-docker.svg" width="100%" alt="Docker Pro Skills: Build, Secure &amp; Deploy Applications" /></a><p>Containers, images, Dockerfiles, Compose, networking, storage, security, troubleshooting and application delivery</p></td>
+<td width="50%" valign="top"><a href="https://www.udemy.com/course/think-before-you-click-the-online-safety-course/"><img src="./card-course-safety.svg" width="100%" alt="Think Before You Click: The Online Safety Course" /></a><p>Scams, phishing, account protection, privacy, AI deepfakes and safer everyday digital decisions</p></td>
+</tr>
+</table>
 
 Our shared work includes lesson preparation, demonstrations, recording, quizzes, presentations and downloadable practice materials.
+
+<img src="./section-divider.svg" width="100%" alt="" />
 
 ## Experience
 
@@ -132,6 +174,8 @@ Our shared work includes lesson preparation, demonstrations, recording, quizzes,
 In progress · Aug 2025–Feb 2027 expected.
 
 [Education, academic activities and earlier schooling](professional-background.md#education)
+
+<img src="./section-divider.svg" width="100%" alt="" />
 
 ## Credentials & training
 

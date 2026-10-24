@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="226" viewBox="0 0 560 226" role="img" aria-labelledby="title desc">
+<title id="title">NuclearShield</title><desc id="desc">Cybersecurity evidence &amp; assurance · Python · FastAPI · Observability</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#171329"/><stop offset="1" stop-color="#0C1426"/></linearGradient><linearGradient id="accent"><stop stop-color="#C084FC"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+<rect x="1" y="1" width="558" height="224" rx="20" fill="url(#bg)" stroke="#38314F"/>
+<path d="M21 1h518" stroke="url(#accent)" stroke-width="3"/>
+<circle cx="515" cy="45" r="96" fill="#C084FC" opacity=".07"/>
+<g transform="translate(461 37) scale(.85)" fill="none" stroke="#C084FC" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M32 6 54 15v19c0 15-10 25-22 31C20 59 10 49 10 34V15Z"/><path d="m22 34 7 7 15-17"/></g>
+<text x="28" y="35" fill="#C084FC" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" letter-spacing="2" font-weight="700">01 / FEATURED PROJECT</text>
+<text x="28" y="86" fill="#F8F5FF" font-family="DejaVu Sans,Arial,sans-serif" font-size="27" font-weight="700">NuclearShield</text>
+<text x="28" y="119" fill="#C7C2D8" font-family="DejaVu Sans,Arial,sans-serif" font-size="15">Cybersecurity evidence &amp; assurance</text>
+<line x1="28" y1="145" x2="532" y2="145" stroke="#34304A"/>
+<text x="28" y="174" fill="#C084FC" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="600">Python · FastAPI · Observability</text>
+<text x="28" y="204" fill="#ABA4C0" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" letter-spacing="1.4">HR-PRESENTS · COLLABORATIVE ENGINEERING</text>
+</svg>
