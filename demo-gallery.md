@@ -24,6 +24,12 @@ flowchart TD
 
 **Scope:** synthetic/offline decision support. The software policy model is not a physical data diode; mappings do not establish regulatory compliance; observability concerns the application stack. There is no plant-control path or autonomous containment.
 
+### Recorded results
+
+[![NuclearShield synthetic analysis: full-platform sample 4 critical, 1 high, 4 medium and 16 low findings; network sample 2 critical and 2 low findings. Linux source run dated 24 October 2026.](nuclearshield-results-chart.svg)](verification.md)
+
+Counts come from the retained [raw analysis output](nuclearshield-results.json). The two samples exercise different inputs and are not a performance comparison or a detection-accuracy measure. The independently executed Linux run recorded **34 passed tests and 1 warning**; it does not verify the Windows or Docker stack. [Methods, source revision and limits](verification.md).
+
 ## Sentrix V1
 
 **Jointly developed by Ruveeha Ashfaq and Haziq Afzal under HR-Presents.**

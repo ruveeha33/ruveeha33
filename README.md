@@ -4,17 +4,11 @@
 
 # Ruveeha Ashfaq
 
-### Co-Founder & CEO, HR-Presents · Udemy Instructor
-
-**Cybersecurity · Linux, Docker & Cloud/DevOps · AI & Automation**
-
 ![Co-Founder & CEO](https://img.shields.io/badge/Co--Founder_%26_CEO-7C3AED?style=for-the-badge&logoColor=white)
 ![Udemy Instructor](https://img.shields.io/badge/Udemy_Instructor-A435F0?style=for-the-badge&logo=udemy&logoColor=white)
 ![HR-Presents](https://img.shields.io/badge/HR--Presents-DB2777?style=for-the-badge&logoColor=white)
 
 Mandi Bahauddin, Pakistan · AIOPS Level 6 student
-
-## 🌐 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ruveeha-ashfaq/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ruveeha33)
@@ -26,9 +20,7 @@ Mandi Bahauddin, Pakistan · AIOPS Level 6 student
 
 ---
 
-I build practical software and develop my skills through **study, hands-on labs and collaborative projects**. My work connects Python development, Linux administration, defensive security, cloud/DevOps and automation.
-
-At **[HR-Presents](https://github.com/HR-Presents)**, I work alongside **[Haziq Afzal](https://github.com/HaziqBinAfzal), Co-Founder & CTO**. We share ownership and credit across product planning, implementation, testing, troubleshooting, documentation and technical education.
+Python, Linux and defensive security projects, built through study, hands-on labs and collaboration.
 
 <img src="./section-divider.svg" width="100%" alt="" />
 
@@ -160,6 +152,28 @@ Our shared work includes lesson preparation, demonstrations, recording, quizzes,
 
 <img src="./section-divider.svg" width="100%" alt="" />
 
+## GitHub activity & languages
+
+<a href="https://github.com/ruveeha33"><img src="https://github-readme-activity-graph.vercel.app/graph?username=ruveeha33&amp;bg_color=131426&amp;color=C7C2D8&amp;line=C084FC&amp;point=22D3EE&amp;area=true&amp;area_color=7C3AED&amp;hide_border=true&amp;custom_title=Public%20contribution%20activity" width="100%" alt="Ruveeha's public GitHub contribution activity over the last 31 days" /></a>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=ruveeha33&amp;show_icons=true&amp;hide_border=true&amp;bg_color=131426&amp;title_color=C084FC&amp;icon_color=22D3EE&amp;text_color=C7C2D8&amp;rank_icon=github" width="49%" alt="Ruveeha's public GitHub activity statistics" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ruveeha33&amp;layout=compact&amp;hide_border=true&amp;bg_color=131426&amp;title_color=C084FC&amp;text_color=C7C2D8&amp;langs_count=6" width="49%" alt="Language distribution in Ruveeha's public repositories" />
+</p>
+
+<sub>Public GitHub activity and repository language distribution, not skill ratings. Language totals may include documentation and learning repositories. Cards use external services; GitHub's contribution graph remains the primary activity record.</sub>
+
+<img src="./section-divider.svg" width="100%" alt="" />
+
+## Background
+
+<details>
+<summary><strong>Experience, education &amp; professional introduction</strong></summary>
+
+I build practical software and develop my skills through **study, hands-on labs and collaborative projects**. My work connects Python development, Linux administration, defensive security, cloud/DevOps and automation.
+
+At **[HR-Presents](https://github.com/HR-Presents)**, I work alongside **[Haziq Afzal](https://github.com/HaziqBinAfzal), Co-Founder & CTO**. We share ownership and credit across product planning, implementation, testing, troubleshooting, documentation and technical education.
+
 ## Experience
 
 | Role | Since | Work |
@@ -175,9 +189,14 @@ In progress · Aug 2025–Feb 2027 expected.
 
 [Education, academic activities and earlier schooling](professional-background.md#education)
 
+</details>
+
 <img src="./section-divider.svg" width="100%" alt="" />
 
 ## Credentials & training
+
+<details>
+<summary><strong>View credentials, training badges &amp; verification links</strong></summary>
 
 | Learning record | Issuer | Issued | Evidence |
 | :--- | :--- | :--- | :--- |
@@ -188,21 +207,18 @@ In progress · Aug 2025–Feb 2027 expected.
 
 [Full training record, KodeKloud courses and verification context](professional-background.md#credentials-and-course-completions). Training badges and individual CC domain completions do not establish AWS or ISC2 professional certification.
 
+</details>
+
 ## Background & contact
 
 I welcome early-career opportunities in Python development, security analysis and infrastructure support, including remote and international roles.
 
 [Full professional background](professional-background.md) · [LinkedIn](https://www.linkedin.com/in/ruveeha-ashfaq/) · [HR-Presents](https://github.com/HR-Presents)
 
-<details>
-<summary><strong>GitHub activity</strong></summary>
 
-![GitHub contribution activity](https://github-readme-stats.vercel.app/api?username=ruveeha33&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github)
-
-Activity cards depend on an external service. GitHub's contribution graph is the authoritative activity record.
-
-</details>
 
 ---
 
-<div align="center"><sub>Build thoughtfully. Explain clearly. Keep learning.</sub></div>
+<img src="./profile-footer.svg" width="100%" alt="Build thoughtfully. Explain clearly. Keep learning." />
+
+<p align="center"><a href="#featured-engineering-work">Explore projects</a> · <a href="https://www.linkedin.com/in/ruveeha-ashfaq/">Connect on LinkedIn</a> · <a href="#our-udemy-courses">View courses</a></p>
