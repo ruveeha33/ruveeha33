@@ -1,0 +1,5850 @@
+[
+  {
+    "fixture": "NuclearShield-Full-Platform-100-Records.jsonl",
+    "input_sha256": "df1b0be525bce60c91dcd1e727b4bd6c23d5aa308730af934f9348f5fc73c5b5",
+    "source_unchanged": true,
+    "detail": {
+      "id": "2e250277-8a90-4f84-a80d-e3c37ae618e3",
+      "created_at": "2026-10-24T07:11:01.567658+00:00",
+      "filename": "NuclearShield-Full-Platform-100-Records.jsonl",
+      "digest": "df1b0be525bce60c91dcd1e727b4bd6c23d5aa308730af934f9348f5fc73c5b5",
+      "event_count": 100,
+      "finding_count": 25,
+      "events": [
+        {
+          "event_id": "FULL-NET-001",
+          "timestamp": "2026-09-27T09:00:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1200",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.15",
+          "src_ip": "192.0.2.1",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41000",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-0",
+          "service": "iso_cotp",
+          "orig_bytes": "1200",
+          "resp_bytes": "300",
+          "raw_row": 1
+        },
+        {
+          "event_id": "FULL-NET-002",
+          "timestamp": "2026-09-27T09:00:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1560",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.29000000000000004",
+          "src_ip": "192.0.2.2",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41001",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90001",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1560",
+          "raw_row": 2
+        },
+        {
+          "event_id": "FULL-NET-003",
+          "timestamp": "2026-09-27T09:01:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1920",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.16999999999999998",
+          "src_ip": "192.0.2.3",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41002",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-2",
+          "service": "modbus",
+          "orig_bytes": "1920",
+          "resp_bytes": "426",
+          "raw_row": 3
+        },
+        {
+          "event_id": "FULL-NET-004",
+          "timestamp": "2026-09-27T09:01:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1524",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.31",
+          "src_ip": "192.0.2.4",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41003",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90003",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1524",
+          "raw_row": 4
+        },
+        {
+          "event_id": "FULL-NET-005",
+          "timestamp": "2026-09-27T09:02:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1884",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.19",
+          "src_ip": "192.0.2.5",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41004",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-4",
+          "service": "iso_cotp",
+          "orig_bytes": "1884",
+          "resp_bytes": "552",
+          "raw_row": 5
+        },
+        {
+          "event_id": "FULL-NET-006",
+          "timestamp": "2026-09-27T09:02:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1488",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.32999999999999996",
+          "src_ip": "192.0.2.6",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41005",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90005",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1488",
+          "raw_row": 6
+        },
+        {
+          "event_id": "FULL-NET-007",
+          "timestamp": "2026-09-27T09:03:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1848",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.21",
+          "src_ip": "192.0.2.7",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41006",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-6",
+          "service": "modbus",
+          "orig_bytes": "1848",
+          "resp_bytes": "336",
+          "raw_row": 7
+        },
+        {
+          "event_id": "FULL-NET-008",
+          "timestamp": "2026-09-27T09:03:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1452",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.35",
+          "src_ip": "192.0.2.8",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41007",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90007",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1452",
+          "raw_row": 8
+        },
+        {
+          "event_id": "FULL-NET-009",
+          "timestamp": "2026-09-27T09:04:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1812",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.22999999999999998",
+          "src_ip": "192.0.2.9",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41008",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-8",
+          "service": "iso_cotp",
+          "orig_bytes": "1812",
+          "resp_bytes": "462",
+          "raw_row": 9
+        },
+        {
+          "event_id": "FULL-NET-010",
+          "timestamp": "2026-09-27T09:04:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1416",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.37",
+          "src_ip": "192.0.2.10",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41009",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90009",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1416",
+          "raw_row": 10
+        },
+        {
+          "event_id": "FULL-NET-011",
+          "timestamp": "2026-09-27T09:05:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1776",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.25",
+          "src_ip": "192.0.2.11",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41010",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-10",
+          "service": "modbus",
+          "orig_bytes": "1776",
+          "resp_bytes": "588",
+          "raw_row": 11
+        },
+        {
+          "event_id": "FULL-NET-012",
+          "timestamp": "2026-09-27T09:05:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1380",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.39",
+          "src_ip": "192.0.2.12",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41011",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90011",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1380",
+          "raw_row": 12
+        },
+        {
+          "event_id": "FULL-NET-013",
+          "timestamp": "2026-09-27T09:06:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1740",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.27",
+          "src_ip": "192.0.2.13",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41012",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-12",
+          "service": "iso_cotp",
+          "orig_bytes": "1740",
+          "resp_bytes": "372",
+          "raw_row": 13
+        },
+        {
+          "event_id": "FULL-NET-014",
+          "timestamp": "2026-09-27T09:06:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1344",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.15",
+          "src_ip": "192.0.2.14",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41013",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90013",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1344",
+          "raw_row": 14
+        },
+        {
+          "event_id": "FULL-NET-015",
+          "timestamp": "2026-09-27T09:07:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1704",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.29000000000000004",
+          "src_ip": "192.0.2.15",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41014",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-14",
+          "service": "modbus",
+          "orig_bytes": "1704",
+          "resp_bytes": "498",
+          "raw_row": 15
+        },
+        {
+          "event_id": "FULL-NET-016",
+          "timestamp": "2026-09-27T09:07:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1308",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.16999999999999998",
+          "src_ip": "192.0.2.16",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41015",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90015",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1308",
+          "raw_row": 16
+        },
+        {
+          "event_id": "FULL-NET-017",
+          "timestamp": "2026-09-27T09:08:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1668",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.31",
+          "src_ip": "192.0.2.17",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41016",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-16",
+          "service": "iso_cotp",
+          "orig_bytes": "1668",
+          "resp_bytes": "624",
+          "raw_row": 17
+        },
+        {
+          "event_id": "FULL-NET-018",
+          "timestamp": "2026-09-27T09:08:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1272",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.19",
+          "src_ip": "192.0.2.18",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41017",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90017",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1272",
+          "raw_row": 18
+        },
+        {
+          "event_id": "FULL-NET-019",
+          "timestamp": "2026-09-27T09:09:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1632",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.32999999999999996",
+          "src_ip": "192.0.2.19",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41018",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-18",
+          "service": "modbus",
+          "orig_bytes": "1632",
+          "resp_bytes": "408",
+          "raw_row": 19
+        },
+        {
+          "event_id": "FULL-NET-020",
+          "timestamp": "2026-09-27T09:09:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1236",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.21",
+          "src_ip": "192.0.2.20",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41019",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90019",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1236",
+          "raw_row": 20
+        },
+        {
+          "event_id": "FULL-NET-021",
+          "timestamp": "2026-09-27T09:10:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1596",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.35",
+          "src_ip": "192.0.2.1",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41020",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-20",
+          "service": "iso_cotp",
+          "orig_bytes": "1596",
+          "resp_bytes": "534",
+          "raw_row": 21
+        },
+        {
+          "event_id": "FULL-NET-022",
+          "timestamp": "2026-09-27T09:10:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1200",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.22999999999999998",
+          "src_ip": "192.0.2.2",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41021",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90021",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1200",
+          "raw_row": 22
+        },
+        {
+          "event_id": "FULL-NET-023",
+          "timestamp": "2026-09-27T09:11:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1560",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.37",
+          "src_ip": "192.0.2.3",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41022",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-22",
+          "service": "modbus",
+          "orig_bytes": "1560",
+          "resp_bytes": "318",
+          "raw_row": 23
+        },
+        {
+          "event_id": "FULL-NET-024",
+          "timestamp": "2026-09-27T09:11:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1920",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.25",
+          "src_ip": "192.0.2.4",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41023",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90023",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1920",
+          "raw_row": 24
+        },
+        {
+          "event_id": "FULL-NET-025",
+          "timestamp": "2026-09-27T09:12:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1524",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.39",
+          "src_ip": "192.0.2.5",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41024",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-24",
+          "service": "iso_cotp",
+          "orig_bytes": "1524",
+          "resp_bytes": "444",
+          "raw_row": 25
+        },
+        {
+          "event_id": "FULL-NET-026",
+          "timestamp": "2026-09-27T09:12:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1884",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.27",
+          "src_ip": "192.0.2.6",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41025",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90025",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1884",
+          "raw_row": 26
+        },
+        {
+          "event_id": "FULL-NET-027",
+          "timestamp": "2026-09-27T09:13:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1488",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.15",
+          "src_ip": "192.0.2.7",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41026",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-26",
+          "service": "modbus",
+          "orig_bytes": "1488",
+          "resp_bytes": "570",
+          "raw_row": 27
+        },
+        {
+          "event_id": "FULL-NET-028",
+          "timestamp": "2026-09-27T09:13:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1848",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.29000000000000004",
+          "src_ip": "192.0.2.8",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41027",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90027",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1848",
+          "raw_row": 28
+        },
+        {
+          "event_id": "FULL-NET-029",
+          "timestamp": "2026-09-27T09:14:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1452",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.16999999999999998",
+          "src_ip": "192.0.2.9",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41028",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-28",
+          "service": "iso_cotp",
+          "orig_bytes": "1452",
+          "resp_bytes": "354",
+          "raw_row": 29
+        },
+        {
+          "event_id": "FULL-NET-030",
+          "timestamp": "2026-09-27T09:14:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1812",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.31",
+          "src_ip": "192.0.2.10",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41029",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90029",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1812",
+          "raw_row": 30
+        },
+        {
+          "event_id": "FULL-NET-031",
+          "timestamp": "2026-09-27T09:15:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1416",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.19",
+          "src_ip": "192.0.2.11",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41030",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-30",
+          "service": "modbus",
+          "orig_bytes": "1416",
+          "resp_bytes": "480",
+          "raw_row": 31
+        },
+        {
+          "event_id": "FULL-NET-032",
+          "timestamp": "2026-09-27T09:15:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "15372",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "badge-test-review",
+          "asset": "training-hmi",
+          "duration": "6.5",
+          "src_ip": "192.0.2.12",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41031",
+          "dest_port": "502",
+          "context": "SYNTHETIC unusual passive network record",
+          "flow_id": "90031",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC anomalous traffic volume",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "15372",
+          "raw_row": 32
+        },
+        {
+          "event_id": "FULL-NET-033",
+          "timestamp": "2026-09-27T09:16:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1380",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.21",
+          "src_ip": "192.0.2.13",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41032",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-32",
+          "service": "iso_cotp",
+          "orig_bytes": "1380",
+          "resp_bytes": "606",
+          "raw_row": 33
+        },
+        {
+          "event_id": "FULL-NET-034",
+          "timestamp": "2026-09-27T09:16:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1740",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.35",
+          "src_ip": "192.0.2.14",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41033",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90033",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1740",
+          "raw_row": 34
+        },
+        {
+          "event_id": "FULL-NET-035",
+          "timestamp": "2026-09-27T09:17:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1344",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.22999999999999998",
+          "src_ip": "192.0.2.15",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41034",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-34",
+          "service": "modbus",
+          "orig_bytes": "1344",
+          "resp_bytes": "390",
+          "raw_row": 35
+        },
+        {
+          "event_id": "FULL-NET-036",
+          "timestamp": "2026-09-27T09:17:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1704",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.37",
+          "src_ip": "192.0.2.16",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41035",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90035",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1704",
+          "raw_row": 36
+        },
+        {
+          "event_id": "FULL-NET-037",
+          "timestamp": "2026-09-27T09:18:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1308",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.25",
+          "src_ip": "192.0.2.17",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41036",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-36",
+          "service": "iso_cotp",
+          "orig_bytes": "1308",
+          "resp_bytes": "516",
+          "raw_row": 37
+        },
+        {
+          "event_id": "FULL-NET-038",
+          "timestamp": "2026-09-27T09:18:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1668",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.39",
+          "src_ip": "192.0.2.18",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41037",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90037",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1668",
+          "raw_row": 38
+        },
+        {
+          "event_id": "FULL-NET-039",
+          "timestamp": "2026-09-27T09:19:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1272",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.27",
+          "src_ip": "192.0.2.19",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41038",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-38",
+          "service": "modbus",
+          "orig_bytes": "1272",
+          "resp_bytes": "300",
+          "raw_row": 39
+        },
+        {
+          "event_id": "FULL-NET-040",
+          "timestamp": "2026-09-27T09:19:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1632",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.15",
+          "src_ip": "192.0.2.20",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41039",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90039",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1632",
+          "raw_row": 40
+        },
+        {
+          "event_id": "FULL-NET-041",
+          "timestamp": "2026-09-27T09:20:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1236",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.29000000000000004",
+          "src_ip": "192.0.2.1",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41040",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-40",
+          "service": "iso_cotp",
+          "orig_bytes": "1236",
+          "resp_bytes": "426",
+          "raw_row": 41
+        },
+        {
+          "event_id": "FULL-NET-042",
+          "timestamp": "2026-09-27T09:20:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1596",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.16999999999999998",
+          "src_ip": "192.0.2.2",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41041",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90041",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1596",
+          "raw_row": 42
+        },
+        {
+          "event_id": "FULL-NET-043",
+          "timestamp": "2026-09-27T09:21:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1200",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.31",
+          "src_ip": "192.0.2.3",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41042",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-42",
+          "service": "modbus",
+          "orig_bytes": "1200",
+          "resp_bytes": "552",
+          "raw_row": 43
+        },
+        {
+          "event_id": "FULL-NET-044",
+          "timestamp": "2026-09-27T09:21:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1560",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.19",
+          "src_ip": "192.0.2.4",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41043",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90043",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1560",
+          "raw_row": 44
+        },
+        {
+          "event_id": "FULL-NET-045",
+          "timestamp": "2026-09-27T09:22:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1920",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.32999999999999996",
+          "src_ip": "192.0.2.5",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41044",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-44",
+          "service": "iso_cotp",
+          "orig_bytes": "1920",
+          "resp_bytes": "336",
+          "raw_row": 45
+        },
+        {
+          "event_id": "FULL-NET-046",
+          "timestamp": "2026-09-27T09:22:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1524",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.21",
+          "src_ip": "192.0.2.6",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41045",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90045",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1524",
+          "raw_row": 46
+        },
+        {
+          "event_id": "FULL-NET-047",
+          "timestamp": "2026-09-27T09:23:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1884",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.35",
+          "src_ip": "192.0.2.7",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41046",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-46",
+          "service": "modbus",
+          "orig_bytes": "1884",
+          "resp_bytes": "462",
+          "raw_row": 47
+        },
+        {
+          "event_id": "FULL-NET-048",
+          "timestamp": "2026-09-27T09:23:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1488",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.22999999999999998",
+          "src_ip": "192.0.2.8",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41047",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90047",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1488",
+          "raw_row": 48
+        },
+        {
+          "event_id": "FULL-NET-049",
+          "timestamp": "2026-09-27T09:24:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1848",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.37",
+          "src_ip": "192.0.2.9",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41048",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-48",
+          "service": "iso_cotp",
+          "orig_bytes": "1848",
+          "resp_bytes": "588",
+          "raw_row": 49
+        },
+        {
+          "event_id": "FULL-NET-050",
+          "timestamp": "2026-09-27T09:24:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1452",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.25",
+          "src_ip": "192.0.2.10",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41049",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90049",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1452",
+          "raw_row": 50
+        },
+        {
+          "event_id": "FULL-NET-051",
+          "timestamp": "2026-09-27T09:25:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1812",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.39",
+          "src_ip": "192.0.2.11",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41050",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-50",
+          "service": "modbus",
+          "orig_bytes": "1812",
+          "resp_bytes": "372",
+          "raw_row": 51
+        },
+        {
+          "event_id": "FULL-NET-052",
+          "timestamp": "2026-09-27T09:25:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1416",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.27",
+          "src_ip": "192.0.2.12",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41051",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90051",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1416",
+          "raw_row": 52
+        },
+        {
+          "event_id": "FULL-NET-053",
+          "timestamp": "2026-09-27T09:26:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1776",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.15",
+          "src_ip": "192.0.2.13",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41052",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-52",
+          "service": "iso_cotp",
+          "orig_bytes": "1776",
+          "resp_bytes": "498",
+          "raw_row": 53
+        },
+        {
+          "event_id": "FULL-NET-054",
+          "timestamp": "2026-09-27T09:26:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1380",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.29000000000000004",
+          "src_ip": "192.0.2.14",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41053",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90053",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1380",
+          "raw_row": 54
+        },
+        {
+          "event_id": "FULL-NET-055",
+          "timestamp": "2026-09-27T09:27:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1740",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.16999999999999998",
+          "src_ip": "192.0.2.15",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41054",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-54",
+          "service": "modbus",
+          "orig_bytes": "1740",
+          "resp_bytes": "624",
+          "raw_row": 55
+        },
+        {
+          "event_id": "FULL-NET-056",
+          "timestamp": "2026-09-27T09:27:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1344",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.31",
+          "src_ip": "192.0.2.16",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41055",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90055",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1344",
+          "raw_row": 56
+        },
+        {
+          "event_id": "FULL-NET-057",
+          "timestamp": "2026-09-27T09:28:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1704",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.19",
+          "src_ip": "192.0.2.17",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41056",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-56",
+          "service": "iso_cotp",
+          "orig_bytes": "1704",
+          "resp_bytes": "408",
+          "raw_row": 57
+        },
+        {
+          "event_id": "FULL-NET-058",
+          "timestamp": "2026-09-27T09:28:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1308",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.32999999999999996",
+          "src_ip": "192.0.2.18",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41057",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90057",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1308",
+          "raw_row": 58
+        },
+        {
+          "event_id": "FULL-NET-059",
+          "timestamp": "2026-09-27T09:29:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1668",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.21",
+          "src_ip": "192.0.2.19",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41058",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-58",
+          "service": "modbus",
+          "orig_bytes": "1668",
+          "resp_bytes": "534",
+          "raw_row": 59
+        },
+        {
+          "event_id": "FULL-NET-060",
+          "timestamp": "2026-09-27T09:29:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1272",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.35",
+          "src_ip": "192.0.2.20",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41059",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90059",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1272",
+          "raw_row": 60
+        },
+        {
+          "event_id": "FULL-NET-061",
+          "timestamp": "2026-09-27T09:30:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1632",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.22999999999999998",
+          "src_ip": "192.0.2.1",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41060",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-60",
+          "service": "iso_cotp",
+          "orig_bytes": "1632",
+          "resp_bytes": "318",
+          "raw_row": 61
+        },
+        {
+          "event_id": "FULL-NET-062",
+          "timestamp": "2026-09-27T09:30:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1236",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.37",
+          "src_ip": "192.0.2.2",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41061",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90061",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1236",
+          "raw_row": 62
+        },
+        {
+          "event_id": "FULL-NET-063",
+          "timestamp": "2026-09-27T09:31:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1596",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.25",
+          "src_ip": "192.0.2.3",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41062",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-62",
+          "service": "modbus",
+          "orig_bytes": "1596",
+          "resp_bytes": "444",
+          "raw_row": 63
+        },
+        {
+          "event_id": "FULL-NET-064",
+          "timestamp": "2026-09-27T09:31:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1200",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.39",
+          "src_ip": "192.0.2.4",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41063",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90063",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1200",
+          "raw_row": 64
+        },
+        {
+          "event_id": "FULL-NET-065",
+          "timestamp": "2026-09-27T09:32:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1560",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.27",
+          "src_ip": "192.0.2.5",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41064",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-64",
+          "service": "iso_cotp",
+          "orig_bytes": "1560",
+          "resp_bytes": "570",
+          "raw_row": 65
+        },
+        {
+          "event_id": "FULL-NET-066",
+          "timestamp": "2026-09-27T09:32:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1920",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.15",
+          "src_ip": "192.0.2.6",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41065",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90065",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1920",
+          "raw_row": 66
+        },
+        {
+          "event_id": "FULL-NET-067",
+          "timestamp": "2026-09-27T09:33:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1524",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.29000000000000004",
+          "src_ip": "192.0.2.7",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41066",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-66",
+          "service": "modbus",
+          "orig_bytes": "1524",
+          "resp_bytes": "354",
+          "raw_row": 67
+        },
+        {
+          "event_id": "FULL-NET-068",
+          "timestamp": "2026-09-27T09:33:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1884",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.16999999999999998",
+          "src_ip": "192.0.2.8",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41067",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90067",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1884",
+          "raw_row": 68
+        },
+        {
+          "event_id": "FULL-NET-069",
+          "timestamp": "2026-09-27T09:34:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1488",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.31",
+          "src_ip": "192.0.2.9",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41068",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-68",
+          "service": "iso_cotp",
+          "orig_bytes": "1488",
+          "resp_bytes": "480",
+          "raw_row": 69
+        },
+        {
+          "event_id": "FULL-NET-070",
+          "timestamp": "2026-09-27T09:34:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1848",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.19",
+          "src_ip": "192.0.2.10",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41069",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90069",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1848",
+          "raw_row": 70
+        },
+        {
+          "event_id": "FULL-NET-071",
+          "timestamp": "2026-09-27T09:35:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1452",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.32999999999999996",
+          "src_ip": "192.0.2.11",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41070",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-70",
+          "service": "modbus",
+          "orig_bytes": "1452",
+          "resp_bytes": "606",
+          "raw_row": 71
+        },
+        {
+          "event_id": "FULL-NET-072",
+          "timestamp": "2026-09-27T09:35:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1812",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.21",
+          "src_ip": "192.0.2.12",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41071",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90071",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1812",
+          "raw_row": 72
+        },
+        {
+          "event_id": "FULL-NET-073",
+          "timestamp": "2026-09-27T09:36:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1416",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.35",
+          "src_ip": "192.0.2.13",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41072",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-72",
+          "service": "iso_cotp",
+          "orig_bytes": "1416",
+          "resp_bytes": "390",
+          "raw_row": 73
+        },
+        {
+          "event_id": "FULL-NET-074",
+          "timestamp": "2026-09-27T09:36:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1776",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.22999999999999998",
+          "src_ip": "192.0.2.14",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41073",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90073",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1776",
+          "raw_row": 74
+        },
+        {
+          "event_id": "FULL-NET-075",
+          "timestamp": "2026-09-27T09:37:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1380",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.37",
+          "src_ip": "192.0.2.15",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41074",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-74",
+          "service": "modbus",
+          "orig_bytes": "1380",
+          "resp_bytes": "516",
+          "raw_row": 75
+        },
+        {
+          "event_id": "FULL-NET-076",
+          "timestamp": "2026-09-27T09:37:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "15900",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "6.5",
+          "src_ip": "192.0.2.16",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41075",
+          "dest_port": "502",
+          "context": "SYNTHETIC unusual passive network record",
+          "flow_id": "90075",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC anomalous traffic volume",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "15900",
+          "raw_row": 76
+        },
+        {
+          "event_id": "FULL-NET-077",
+          "timestamp": "2026-09-27T09:38:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1344",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.39",
+          "src_ip": "192.0.2.17",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41076",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-76",
+          "service": "iso_cotp",
+          "orig_bytes": "1344",
+          "resp_bytes": "300",
+          "raw_row": 77
+        },
+        {
+          "event_id": "FULL-NET-078",
+          "timestamp": "2026-09-27T09:38:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1704",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.27",
+          "src_ip": "192.0.2.18",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41077",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90077",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1704",
+          "raw_row": 78
+        },
+        {
+          "event_id": "FULL-NET-079",
+          "timestamp": "2026-09-27T09:39:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1308",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.15",
+          "src_ip": "192.0.2.19",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41078",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-78",
+          "service": "modbus",
+          "orig_bytes": "1308",
+          "resp_bytes": "426",
+          "raw_row": 79
+        },
+        {
+          "event_id": "FULL-NET-080",
+          "timestamp": "2026-09-27T09:39:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1668",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.29000000000000004",
+          "src_ip": "192.0.2.20",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41079",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90079",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1668",
+          "raw_row": 80
+        },
+        {
+          "event_id": "FULL-NET-081",
+          "timestamp": "2026-09-27T09:40:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1272",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.16999999999999998",
+          "src_ip": "192.0.2.1",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41080",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-80",
+          "service": "iso_cotp",
+          "orig_bytes": "1272",
+          "resp_bytes": "552",
+          "raw_row": 81
+        },
+        {
+          "event_id": "FULL-NET-082",
+          "timestamp": "2026-09-27T09:40:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1632",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.31",
+          "src_ip": "192.0.2.2",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41081",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90081",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1632",
+          "raw_row": 82
+        },
+        {
+          "event_id": "FULL-NET-083",
+          "timestamp": "2026-09-27T09:41:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1236",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.19",
+          "src_ip": "192.0.2.3",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41082",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-82",
+          "service": "modbus",
+          "orig_bytes": "1236",
+          "resp_bytes": "336",
+          "raw_row": 83
+        },
+        {
+          "event_id": "FULL-NET-084",
+          "timestamp": "2026-09-27T09:41:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1596",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.32999999999999996",
+          "src_ip": "192.0.2.4",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41083",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90083",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1596",
+          "raw_row": 84
+        },
+        {
+          "event_id": "FULL-NET-085",
+          "timestamp": "2026-09-27T09:42:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1200",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.21",
+          "src_ip": "192.0.2.5",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41084",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-84",
+          "service": "iso_cotp",
+          "orig_bytes": "1200",
+          "resp_bytes": "462",
+          "raw_row": 85
+        },
+        {
+          "event_id": "FULL-NET-086",
+          "timestamp": "2026-09-27T09:42:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1560",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.35",
+          "src_ip": "192.0.2.6",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41085",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90085",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1560",
+          "raw_row": 86
+        },
+        {
+          "event_id": "FULL-NET-087",
+          "timestamp": "2026-09-27T09:43:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1920",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.22999999999999998",
+          "src_ip": "192.0.2.7",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41086",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-86",
+          "service": "modbus",
+          "orig_bytes": "1920",
+          "resp_bytes": "588",
+          "raw_row": 87
+        },
+        {
+          "event_id": "FULL-NET-088",
+          "timestamp": "2026-09-27T09:43:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1524",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.37",
+          "src_ip": "192.0.2.8",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41087",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90087",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1524",
+          "raw_row": 88
+        },
+        {
+          "event_id": "FULL-NET-089",
+          "timestamp": "2026-09-27T09:44:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "1884",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.25",
+          "src_ip": "192.0.2.9",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41088",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "uid": "SYN-UID-88",
+          "service": "iso_cotp",
+          "orig_bytes": "1884",
+          "resp_bytes": "372",
+          "raw_row": 89
+        },
+        {
+          "event_id": "FULL-NET-090",
+          "timestamp": "2026-09-27T09:44:30.000Z",
+          "event_type": "network",
+          "source": "fictional-suricata-offline",
+          "value": "1488",
+          "baseline": "1600",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.39",
+          "src_ip": "192.0.2.10",
+          "dest_ip": "198.51.100.20",
+          "src_port": "41089",
+          "dest_port": "502",
+          "context": "SYNTHETIC normal fictional network record",
+          "flow_id": "90089",
+          "app_proto": "modbus",
+          "alert.signature": "SYNTHETIC training rule match",
+          "alert.category": "Training evidence only",
+          "bytes_toserver": "1488",
+          "raw_row": 90
+        },
+        {
+          "event_id": "FULL-INTEGRITY-001",
+          "timestamp": "2026-09-27T09:45:00.000Z",
+          "event_type": "integrity",
+          "source": "fictional-safety-integrity",
+          "value": "signed-baseline-a",
+          "baseline": "signed-baseline-a",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "engineer-a",
+          "asset": "training-controller",
+          "context": "Approved synthetic integrity record",
+          "raw_row": 91
+        },
+        {
+          "event_id": "FULL-INTEGRITY-002",
+          "timestamp": "2026-09-27T09:45:30.000Z",
+          "event_type": "integrity",
+          "source": "fictional-safety-integrity",
+          "value": "signed-baseline-b",
+          "baseline": "signed-baseline-a",
+          "authorized": true,
+          "integrity": "mismatch",
+          "actor": "engineer-a",
+          "asset": "training-controller",
+          "context": "SYNTHETIC firmware/configuration mismatch",
+          "raw_row": 92
+        },
+        {
+          "event_id": "FULL-ACCESS-003",
+          "timestamp": "2026-09-27T09:46:00.000Z",
+          "event_type": "access",
+          "source": "fictional-pacs",
+          "value": "open",
+          "baseline": "open",
+          "authorized": false,
+          "integrity": "valid",
+          "actor": "badge-test-review",
+          "asset": "training-hmi-review",
+          "context": "SYNTHETIC unauthorized access evidence",
+          "raw_row": 93
+        },
+        {
+          "event_id": "FULL-ACCESS-004",
+          "timestamp": "2026-09-27T09:46:30.000Z",
+          "event_type": "access",
+          "source": "fictional-pacs",
+          "value": "open",
+          "baseline": "open",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "badge-allowed",
+          "asset": "training-hmi",
+          "context": "SYNTHETIC authorized entry",
+          "raw_row": 94
+        },
+        {
+          "event_id": "FULL-MATERIAL-005",
+          "timestamp": "2026-09-27T09:47:00.000Z",
+          "event_type": "material",
+          "source": "fictional-mca-ledger",
+          "value": "106",
+          "baseline": "100",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "badge-test-review",
+          "asset": "training-hmi",
+          "context": "SYNTHETIC material-accounting exercise; arbitrary demo units",
+          "raw_row": 95
+        },
+        {
+          "event_id": "FULL-MATERIAL-006",
+          "timestamp": "2026-09-27T09:47:30.000Z",
+          "event_type": "material",
+          "source": "fictional-mca-ledger",
+          "value": "100",
+          "baseline": "100",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "badge-allowed",
+          "asset": "training-store",
+          "context": "SYNTHETIC normal accounting exercise",
+          "raw_row": 96
+        },
+        {
+          "event_id": "FULL-RADIATION-007",
+          "timestamp": "2026-09-27T09:48:00.000Z",
+          "event_type": "radiation",
+          "source": "fictional-portal",
+          "value": "55",
+          "baseline": "10",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "badge-test-review",
+          "asset": "training-hmi",
+          "context": "SYNTHETIC portal count exercise; arbitrary demo units",
+          "raw_row": 97
+        },
+        {
+          "event_id": "FULL-RADIATION-008",
+          "timestamp": "2026-09-27T09:48:30.000Z",
+          "event_type": "radiation",
+          "source": "fictional-portal",
+          "value": "10",
+          "baseline": "10",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "badge-allowed",
+          "asset": "training-gate",
+          "context": "SYNTHETIC normal portal exercise",
+          "raw_row": 98
+        },
+        {
+          "event_id": "FULL-CHANGE-009",
+          "timestamp": "2026-09-27T09:49:00.000Z",
+          "event_type": "change",
+          "source": "fictional-change-control",
+          "value": "unsigned",
+          "baseline": "approved",
+          "authorized": false,
+          "integrity": "mismatch",
+          "actor": "engineer-b",
+          "asset": "training-controller",
+          "context": "SYNTHETIC unapproved change",
+          "raw_row": 99
+        },
+        {
+          "event_id": "FULL-CHANGE-010",
+          "timestamp": "2026-09-27T09:49:30.000Z",
+          "event_type": "change",
+          "source": "fictional-change-control",
+          "value": "approved",
+          "baseline": "approved",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "engineer-a",
+          "asset": "training-controller",
+          "context": "SYNTHETIC approved change",
+          "raw_row": 100
+        }
+      ],
+      "findings": [
+        {
+          "event_id": "FULL-NET-032",
+          "score": 100,
+          "severity": "critical",
+          "confidence": 99,
+          "engine": "baseline-rule+robust-anomaly-model+isolation-forest+correlation-engine",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 50%",
+            "median/MAD statistical check identified unusual peer-group behavior",
+            "Isolation Forest flagged this uploaded network observation as an outlier for human review",
+            "physical-cyber correlation links this record to unauthorized access evidence"
+          ],
+          "contributors": [
+            "baseline deviation 860.8%",
+            "robust z-score 51.76",
+            "Isolation Forest decision score -0.28910 (negative means outlier)",
+            "1 correlated access record(s)"
+          ],
+          "related_events": [
+            "FULL-ACCESS-003"
+          ],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-076",
+          "score": 100,
+          "severity": "critical",
+          "confidence": 94,
+          "engine": "baseline-rule+robust-anomaly-model+isolation-forest",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 50%",
+            "median/MAD statistical check identified unusual peer-group behavior",
+            "Isolation Forest flagged this uploaded network observation as an outlier for human review"
+          ],
+          "contributors": [
+            "baseline deviation 893.8%",
+            "robust z-score 53.74",
+            "Isolation Forest decision score -0.29053 (negative means outlier)"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-CHANGE-009",
+          "score": 100,
+          "severity": "critical",
+          "confidence": 85,
+          "engine": "integrity-rule+authorization-rule",
+          "reasons": [
+            "observed state differs from its declared approved state",
+            "record has no declared authorization",
+            "integrity or signature evidence does not match the approved baseline"
+          ],
+          "contributors": [
+            "categorical state mismatch",
+            "authorization=false",
+            "integrity=mismatch"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-INTEGRITY-002",
+          "score": 87,
+          "severity": "critical",
+          "confidence": 72,
+          "engine": "integrity-rule",
+          "reasons": [
+            "observed state differs from its declared approved state",
+            "integrity or signature evidence does not match the approved baseline"
+          ],
+          "contributors": [
+            "categorical state mismatch",
+            "integrity=mismatch"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-RADIATION-007",
+          "score": 70,
+          "severity": "high",
+          "confidence": 81,
+          "engine": "baseline-rule+correlation-engine",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 50%",
+            "physical-cyber correlation links this record to unauthorized access evidence"
+          ],
+          "contributors": [
+            "baseline deviation 450.0%",
+            "1 correlated access record(s)"
+          ],
+          "related_events": [
+            "FULL-ACCESS-003"
+          ],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-001",
+          "score": 53,
+          "severity": "medium",
+          "confidence": 81,
+          "engine": "baseline-rule+isolation-forest",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%",
+            "Isolation Forest flagged this uploaded network observation as an outlier for human review"
+          ],
+          "contributors": [
+            "baseline deviation 25.0%",
+            "Isolation Forest decision score -0.02818 (negative means outlier)"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-064",
+          "score": 53,
+          "severity": "medium",
+          "confidence": 81,
+          "engine": "baseline-rule+isolation-forest",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%",
+            "Isolation Forest flagged this uploaded network observation as an outlier for human review"
+          ],
+          "contributors": [
+            "baseline deviation 25.0%",
+            "Isolation Forest decision score -0.04487 (negative means outlier)"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-066",
+          "score": 53,
+          "severity": "medium",
+          "confidence": 81,
+          "engine": "baseline-rule+isolation-forest",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%",
+            "Isolation Forest flagged this uploaded network observation as an outlier for human review"
+          ],
+          "contributors": [
+            "baseline deviation 20.0%",
+            "Isolation Forest decision score -0.00105 (negative means outlier)"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-ACCESS-003",
+          "score": 35,
+          "severity": "medium",
+          "confidence": 68,
+          "engine": "authorization-rule",
+          "reasons": [
+            "record has no declared authorization"
+          ],
+          "contributors": [
+            "authorization=false"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-003",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 20.0%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-018",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 20.5%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-020",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 22.8%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-022",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 25.0%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-024",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 20.0%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-039",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 20.5%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-041",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 22.8%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-043",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 25.0%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-045",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 20.0%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-060",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 20.5%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-062",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 22.8%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-081",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 20.5%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-083",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 22.8%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-085",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 25.0%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-NET-087",
+          "score": 28,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "baseline-rule",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 20%"
+          ],
+          "contributors": [
+            "baseline deviation 20.0%"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "FULL-MATERIAL-005",
+          "score": 20,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "correlation-engine",
+          "reasons": [
+            "physical-cyber correlation links this record to unauthorized access evidence"
+          ],
+          "contributors": [
+            "1 correlated access record(s)"
+          ],
+          "related_events": [
+            "FULL-ACCESS-003"
+          ],
+          "requires_human_authorization": true
+        }
+      ],
+      "summary": {
+        "accepted_records": 100,
+        "rejected_records": 0,
+        "records_seen": 100,
+        "processing_coverage": 100.0,
+        "finding_rate": 25.0,
+        "severities": {
+          "critical": 4,
+          "high": 1,
+          "medium": 4,
+          "low": 16
+        },
+        "evidence_types": {
+          "access": 2,
+          "change": 2,
+          "integrity": 2,
+          "material": 2,
+          "network": 90,
+          "radiation": 2
+        },
+        "engines": {
+          "baseline-rule": 21,
+          "integrity-rule": 2,
+          "authorization-rule": 2,
+          "robust-anomaly-model": 2,
+          "isolation-forest": 5,
+          "correlation-engine": 3
+        },
+        "network_ml": {
+          "status": "completed",
+          "method": "scikit-learn IsolationForest",
+          "minimum_rows": 20,
+          "network_rows": 90,
+          "eligible_rows": 90,
+          "features": [
+            "value",
+            "duration"
+          ],
+          "outliers": [
+            {
+              "row_index": 0,
+              "event_id": "FULL-NET-001",
+              "decision_score": -0.02818,
+              "outlier": true,
+              "values": {
+                "value": 1200.0,
+                "duration": 0.15
+              }
+            },
+            {
+              "row_index": 31,
+              "event_id": "FULL-NET-032",
+              "decision_score": -0.2891,
+              "outlier": true,
+              "values": {
+                "value": 15372.0,
+                "duration": 6.5
+              }
+            },
+            {
+              "row_index": 63,
+              "event_id": "FULL-NET-064",
+              "decision_score": -0.04487,
+              "outlier": true,
+              "values": {
+                "value": 1200.0,
+                "duration": 0.39
+              }
+            },
+            {
+              "row_index": 65,
+              "event_id": "FULL-NET-066",
+              "decision_score": -0.00105,
+              "outlier": true,
+              "values": {
+                "value": 1920.0,
+                "duration": 0.15
+              }
+            },
+            {
+              "row_index": 75,
+              "event_id": "FULL-NET-076",
+              "decision_score": -0.29053,
+              "outlier": true,
+              "values": {
+                "value": 15900.0,
+                "duration": 6.5
+              }
+            }
+          ],
+          "scores": [
+            {
+              "row_index": 0,
+              "event_id": "FULL-NET-001",
+              "decision_score": -0.02818,
+              "outlier": true,
+              "values": {
+                "value": 1200.0,
+                "duration": 0.15
+              }
+            },
+            {
+              "row_index": 1,
+              "event_id": "FULL-NET-002",
+              "decision_score": 0.11613,
+              "outlier": false,
+              "values": {
+                "value": 1560.0,
+                "duration": 0.29000000000000004
+              }
+            },
+            {
+              "row_index": 2,
+              "event_id": "FULL-NET-003",
+              "decision_score": 0.03268,
+              "outlier": false,
+              "values": {
+                "value": 1920.0,
+                "duration": 0.16999999999999998
+              }
+            },
+            {
+              "row_index": 3,
+              "event_id": "FULL-NET-004",
+              "decision_score": 0.12032,
+              "outlier": false,
+              "values": {
+                "value": 1524.0,
+                "duration": 0.31
+              }
+            },
+            {
+              "row_index": 4,
+              "event_id": "FULL-NET-005",
+              "decision_score": 0.06202,
+              "outlier": false,
+              "values": {
+                "value": 1884.0,
+                "duration": 0.19
+              }
+            },
+            {
+              "row_index": 5,
+              "event_id": "FULL-NET-006",
+              "decision_score": 0.1132,
+              "outlier": false,
+              "values": {
+                "value": 1488.0,
+                "duration": 0.32999999999999996
+              }
+            },
+            {
+              "row_index": 6,
+              "event_id": "FULL-NET-007",
+              "decision_score": 0.07428,
+              "outlier": false,
+              "values": {
+                "value": 1848.0,
+                "duration": 0.21
+              }
+            },
+            {
+              "row_index": 7,
+              "event_id": "FULL-NET-008",
+              "decision_score": 0.10073,
+              "outlier": false,
+              "values": {
+                "value": 1452.0,
+                "duration": 0.35
+              }
+            },
+            {
+              "row_index": 8,
+              "event_id": "FULL-NET-009",
+              "decision_score": 0.093,
+              "outlier": false,
+              "values": {
+                "value": 1812.0,
+                "duration": 0.22999999999999998
+              }
+            },
+            {
+              "row_index": 9,
+              "event_id": "FULL-NET-010",
+              "decision_score": 0.08359,
+              "outlier": false,
+              "values": {
+                "value": 1416.0,
+                "duration": 0.37
+              }
+            },
+            {
+              "row_index": 10,
+              "event_id": "FULL-NET-011",
+              "decision_score": 0.09006,
+              "outlier": false,
+              "values": {
+                "value": 1776.0,
+                "duration": 0.25
+              }
+            },
+            {
+              "row_index": 11,
+              "event_id": "FULL-NET-012",
+              "decision_score": 0.05574,
+              "outlier": false,
+              "values": {
+                "value": 1380.0,
+                "duration": 0.39
+              }
+            },
+            {
+              "row_index": 12,
+              "event_id": "FULL-NET-013",
+              "decision_score": 0.09925,
+              "outlier": false,
+              "values": {
+                "value": 1740.0,
+                "duration": 0.27
+              }
+            },
+            {
+              "row_index": 13,
+              "event_id": "FULL-NET-014",
+              "decision_score": 0.04134,
+              "outlier": false,
+              "values": {
+                "value": 1344.0,
+                "duration": 0.15
+              }
+            },
+            {
+              "row_index": 14,
+              "event_id": "FULL-NET-015",
+              "decision_score": 0.10346,
+              "outlier": false,
+              "values": {
+                "value": 1704.0,
+                "duration": 0.29000000000000004
+              }
+            },
+            {
+              "row_index": 15,
+              "event_id": "FULL-NET-016",
+              "decision_score": 0.07018,
+              "outlier": false,
+              "values": {
+                "value": 1308.0,
+                "duration": 0.16999999999999998
+              }
+            },
+            {
+              "row_index": 16,
+              "event_id": "FULL-NET-017",
+              "decision_score": 0.11042,
+              "outlier": false,
+              "values": {
+                "value": 1668.0,
+                "duration": 0.31
+              }
+            },
+            {
+              "row_index": 17,
+              "event_id": "FULL-NET-018",
+              "decision_score": 0.08279,
+              "outlier": false,
+              "values": {
+                "value": 1272.0,
+                "duration": 0.19
+              }
+            },
+            {
+              "row_index": 18,
+              "event_id": "FULL-NET-019",
+              "decision_score": 0.11107,
+              "outlier": false,
+              "values": {
+                "value": 1632.0,
+                "duration": 0.32999999999999996
+              }
+            },
+            {
+              "row_index": 19,
+              "event_id": "FULL-NET-020",
+              "decision_score": 0.06934,
+              "outlier": false,
+              "values": {
+                "value": 1236.0,
+                "duration": 0.21
+              }
+            },
+            {
+              "row_index": 20,
+              "event_id": "FULL-NET-021",
+              "decision_score": 0.10412,
+              "outlier": false,
+              "values": {
+                "value": 1596.0,
+                "duration": 0.35
+              }
+            },
+            {
+              "row_index": 21,
+              "event_id": "FULL-NET-022",
+              "decision_score": 0.03414,
+              "outlier": false,
+              "values": {
+                "value": 1200.0,
+                "duration": 0.22999999999999998
+              }
+            },
+            {
+              "row_index": 22,
+              "event_id": "FULL-NET-023",
+              "decision_score": 0.08878,
+              "outlier": false,
+              "values": {
+                "value": 1560.0,
+                "duration": 0.37
+              }
+            },
+            {
+              "row_index": 23,
+              "event_id": "FULL-NET-024",
+              "decision_score": 0.04677,
+              "outlier": false,
+              "values": {
+                "value": 1920.0,
+                "duration": 0.25
+              }
+            },
+            {
+              "row_index": 24,
+              "event_id": "FULL-NET-025",
+              "decision_score": 0.05965,
+              "outlier": false,
+              "values": {
+                "value": 1524.0,
+                "duration": 0.39
+              }
+            },
+            {
+              "row_index": 25,
+              "event_id": "FULL-NET-026",
+              "decision_score": 0.05734,
+              "outlier": false,
+              "values": {
+                "value": 1884.0,
+                "duration": 0.27
+              }
+            },
+            {
+              "row_index": 26,
+              "event_id": "FULL-NET-027",
+              "decision_score": 0.03665,
+              "outlier": false,
+              "values": {
+                "value": 1488.0,
+                "duration": 0.15
+              }
+            },
+            {
+              "row_index": 27,
+              "event_id": "FULL-NET-028",
+              "decision_score": 0.05517,
+              "outlier": false,
+              "values": {
+                "value": 1848.0,
+                "duration": 0.29000000000000004
+              }
+            },
+            {
+              "row_index": 28,
+              "event_id": "FULL-NET-029",
+              "decision_score": 0.06672,
+              "outlier": false,
+              "values": {
+                "value": 1452.0,
+                "duration": 0.16999999999999998
+              }
+            },
+            {
+              "row_index": 29,
+              "event_id": "FULL-NET-030",
+              "decision_score": 0.06261,
+              "outlier": false,
+              "values": {
+                "value": 1812.0,
+                "duration": 0.31
+              }
+            },
+            {
+              "row_index": 30,
+              "event_id": "FULL-NET-031",
+              "decision_score": 0.08167,
+              "outlier": false,
+              "values": {
+                "value": 1416.0,
+                "duration": 0.19
+              }
+            },
+            {
+              "row_index": 31,
+              "event_id": "FULL-NET-032",
+              "decision_score": -0.2891,
+              "outlier": true,
+              "values": {
+                "value": 15372.0,
+                "duration": 6.5
+              }
+            },
+            {
+              "row_index": 32,
+              "event_id": "FULL-NET-033",
+              "decision_score": 0.08475,
+              "outlier": false,
+              "values": {
+                "value": 1380.0,
+                "duration": 0.21
+              }
+            },
+            {
+              "row_index": 33,
+              "event_id": "FULL-NET-034",
+              "decision_score": 0.06987,
+              "outlier": false,
+              "values": {
+                "value": 1740.0,
+                "duration": 0.35
+              }
+            },
+            {
+              "row_index": 34,
+              "event_id": "FULL-NET-035",
+              "decision_score": 0.08603,
+              "outlier": false,
+              "values": {
+                "value": 1344.0,
+                "duration": 0.22999999999999998
+              }
+            },
+            {
+              "row_index": 35,
+              "event_id": "FULL-NET-036",
+              "decision_score": 0.06159,
+              "outlier": false,
+              "values": {
+                "value": 1704.0,
+                "duration": 0.37
+              }
+            },
+            {
+              "row_index": 36,
+              "event_id": "FULL-NET-037",
+              "decision_score": 0.07541,
+              "outlier": false,
+              "values": {
+                "value": 1308.0,
+                "duration": 0.25
+              }
+            },
+            {
+              "row_index": 37,
+              "event_id": "FULL-NET-038",
+              "decision_score": 0.03487,
+              "outlier": false,
+              "values": {
+                "value": 1668.0,
+                "duration": 0.39
+              }
+            },
+            {
+              "row_index": 38,
+              "event_id": "FULL-NET-039",
+              "decision_score": 0.06694,
+              "outlier": false,
+              "values": {
+                "value": 1272.0,
+                "duration": 0.27
+              }
+            },
+            {
+              "row_index": 39,
+              "event_id": "FULL-NET-040",
+              "decision_score": 0.03105,
+              "outlier": false,
+              "values": {
+                "value": 1632.0,
+                "duration": 0.15
+              }
+            },
+            {
+              "row_index": 40,
+              "event_id": "FULL-NET-041",
+              "decision_score": 0.04646,
+              "outlier": false,
+              "values": {
+                "value": 1236.0,
+                "duration": 0.29000000000000004
+              }
+            },
+            {
+              "row_index": 41,
+              "event_id": "FULL-NET-042",
+              "decision_score": 0.06892,
+              "outlier": false,
+              "values": {
+                "value": 1596.0,
+                "duration": 0.16999999999999998
+              }
+            },
+            {
+              "row_index": 42,
+              "event_id": "FULL-NET-043",
+              "decision_score": 0.01385,
+              "outlier": false,
+              "values": {
+                "value": 1200.0,
+                "duration": 0.31
+              }
+            },
+            {
+              "row_index": 43,
+              "event_id": "FULL-NET-044",
+              "decision_score": 0.08488,
+              "outlier": false,
+              "values": {
+                "value": 1560.0,
+                "duration": 0.19
+              }
+            },
+            {
+              "row_index": 44,
+              "event_id": "FULL-NET-045",
+              "decision_score": 0.00128,
+              "outlier": false,
+              "values": {
+                "value": 1920.0,
+                "duration": 0.32999999999999996
+              }
+            },
+            {
+              "row_index": 45,
+              "event_id": "FULL-NET-046",
+              "decision_score": 0.09402,
+              "outlier": false,
+              "values": {
+                "value": 1524.0,
+                "duration": 0.21
+              }
+            },
+            {
+              "row_index": 46,
+              "event_id": "FULL-NET-047",
+              "decision_score": 0.0328,
+              "outlier": false,
+              "values": {
+                "value": 1884.0,
+                "duration": 0.35
+              }
+            },
+            {
+              "row_index": 47,
+              "event_id": "FULL-NET-048",
+              "decision_score": 0.0972,
+              "outlier": false,
+              "values": {
+                "value": 1488.0,
+                "duration": 0.22999999999999998
+              }
+            },
+            {
+              "row_index": 48,
+              "event_id": "FULL-NET-049",
+              "decision_score": 0.01985,
+              "outlier": false,
+              "values": {
+                "value": 1848.0,
+                "duration": 0.37
+              }
+            },
+            {
+              "row_index": 49,
+              "event_id": "FULL-NET-050",
+              "decision_score": 0.09145,
+              "outlier": false,
+              "values": {
+                "value": 1452.0,
+                "duration": 0.25
+              }
+            },
+            {
+              "row_index": 50,
+              "event_id": "FULL-NET-051",
+              "decision_score": 0.00222,
+              "outlier": false,
+              "values": {
+                "value": 1812.0,
+                "duration": 0.39
+              }
+            },
+            {
+              "row_index": 51,
+              "event_id": "FULL-NET-052",
+              "decision_score": 0.09481,
+              "outlier": false,
+              "values": {
+                "value": 1416.0,
+                "duration": 0.27
+              }
+            },
+            {
+              "row_index": 52,
+              "event_id": "FULL-NET-053",
+              "decision_score": 0.01901,
+              "outlier": false,
+              "values": {
+                "value": 1776.0,
+                "duration": 0.15
+              }
+            },
+            {
+              "row_index": 53,
+              "event_id": "FULL-NET-054",
+              "decision_score": 0.08675,
+              "outlier": false,
+              "values": {
+                "value": 1380.0,
+                "duration": 0.29000000000000004
+              }
+            },
+            {
+              "row_index": 54,
+              "event_id": "FULL-NET-055",
+              "decision_score": 0.05676,
+              "outlier": false,
+              "values": {
+                "value": 1740.0,
+                "duration": 0.16999999999999998
+              }
+            },
+            {
+              "row_index": 55,
+              "event_id": "FULL-NET-056",
+              "decision_score": 0.08111,
+              "outlier": false,
+              "values": {
+                "value": 1344.0,
+                "duration": 0.31
+              }
+            },
+            {
+              "row_index": 56,
+              "event_id": "FULL-NET-057",
+              "decision_score": 0.06847,
+              "outlier": false,
+              "values": {
+                "value": 1704.0,
+                "duration": 0.19
+              }
+            },
+            {
+              "row_index": 57,
+              "event_id": "FULL-NET-058",
+              "decision_score": 0.06174,
+              "outlier": false,
+              "values": {
+                "value": 1308.0,
+                "duration": 0.32999999999999996
+              }
+            },
+            {
+              "row_index": 58,
+              "event_id": "FULL-NET-059",
+              "decision_score": 0.08816,
+              "outlier": false,
+              "values": {
+                "value": 1668.0,
+                "duration": 0.21
+              }
+            },
+            {
+              "row_index": 59,
+              "event_id": "FULL-NET-060",
+              "decision_score": 0.04266,
+              "outlier": false,
+              "values": {
+                "value": 1272.0,
+                "duration": 0.35
+              }
+            },
+            {
+              "row_index": 60,
+              "event_id": "FULL-NET-061",
+              "decision_score": 0.10093,
+              "outlier": false,
+              "values": {
+                "value": 1632.0,
+                "duration": 0.22999999999999998
+              }
+            },
+            {
+              "row_index": 61,
+              "event_id": "FULL-NET-062",
+              "decision_score": 0.01716,
+              "outlier": false,
+              "values": {
+                "value": 1236.0,
+                "duration": 0.37
+              }
+            },
+            {
+              "row_index": 62,
+              "event_id": "FULL-NET-063",
+              "decision_score": 0.1083,
+              "outlier": false,
+              "values": {
+                "value": 1596.0,
+                "duration": 0.25
+              }
+            },
+            {
+              "row_index": 63,
+              "event_id": "FULL-NET-064",
+              "decision_score": -0.04487,
+              "outlier": true,
+              "values": {
+                "value": 1200.0,
+                "duration": 0.39
+              }
+            },
+            {
+              "row_index": 64,
+              "event_id": "FULL-NET-065",
+              "decision_score": 0.11579,
+              "outlier": false,
+              "values": {
+                "value": 1560.0,
+                "duration": 0.27
+              }
+            },
+            {
+              "row_index": 65,
+              "event_id": "FULL-NET-066",
+              "decision_score": -0.00105,
+              "outlier": true,
+              "values": {
+                "value": 1920.0,
+                "duration": 0.15
+              }
+            },
+            {
+              "row_index": 66,
+              "event_id": "FULL-NET-067",
+              "decision_score": 0.11881,
+              "outlier": false,
+              "values": {
+                "value": 1524.0,
+                "duration": 0.29000000000000004
+              }
+            },
+            {
+              "row_index": 67,
+              "event_id": "FULL-NET-068",
+              "decision_score": 0.04612,
+              "outlier": false,
+              "values": {
+                "value": 1884.0,
+                "duration": 0.16999999999999998
+              }
+            },
+            {
+              "row_index": 68,
+              "event_id": "FULL-NET-069",
+              "decision_score": 0.11404,
+              "outlier": false,
+              "values": {
+                "value": 1488.0,
+                "duration": 0.31
+              }
+            },
+            {
+              "row_index": 69,
+              "event_id": "FULL-NET-070",
+              "decision_score": 0.06717,
+              "outlier": false,
+              "values": {
+                "value": 1848.0,
+                "duration": 0.19
+              }
+            },
+            {
+              "row_index": 70,
+              "event_id": "FULL-NET-071",
+              "decision_score": 0.10089,
+              "outlier": false,
+              "values": {
+                "value": 1452.0,
+                "duration": 0.32999999999999996
+              }
+            },
+            {
+              "row_index": 71,
+              "event_id": "FULL-NET-072",
+              "decision_score": 0.08592,
+              "outlier": false,
+              "values": {
+                "value": 1812.0,
+                "duration": 0.21
+              }
+            },
+            {
+              "row_index": 72,
+              "event_id": "FULL-NET-073",
+              "decision_score": 0.09727,
+              "outlier": false,
+              "values": {
+                "value": 1416.0,
+                "duration": 0.35
+              }
+            },
+            {
+              "row_index": 73,
+              "event_id": "FULL-NET-074",
+              "decision_score": 0.09289,
+              "outlier": false,
+              "values": {
+                "value": 1776.0,
+                "duration": 0.22999999999999998
+              }
+            },
+            {
+              "row_index": 74,
+              "event_id": "FULL-NET-075",
+              "decision_score": 0.07503,
+              "outlier": false,
+              "values": {
+                "value": 1380.0,
+                "duration": 0.37
+              }
+            },
+            {
+              "row_index": 75,
+              "event_id": "FULL-NET-076",
+              "decision_score": -0.29053,
+              "outlier": true,
+              "values": {
+                "value": 15900.0,
+                "duration": 6.5
+              }
+            },
+            {
+              "row_index": 76,
+              "event_id": "FULL-NET-077",
+              "decision_score": 0.04232,
+              "outlier": false,
+              "values": {
+                "value": 1344.0,
+                "duration": 0.39
+              }
+            },
+            {
+              "row_index": 77,
+              "event_id": "FULL-NET-078",
+              "decision_score": 0.10802,
+              "outlier": false,
+              "values": {
+                "value": 1704.0,
+                "duration": 0.27
+              }
+            },
+            {
+              "row_index": 78,
+              "event_id": "FULL-NET-079",
+              "decision_score": 0.04433,
+              "outlier": false,
+              "values": {
+                "value": 1308.0,
+                "duration": 0.15
+              }
+            },
+            {
+              "row_index": 79,
+              "event_id": "FULL-NET-080",
+              "decision_score": 0.11098,
+              "outlier": false,
+              "values": {
+                "value": 1668.0,
+                "duration": 0.29000000000000004
+              }
+            },
+            {
+              "row_index": 80,
+              "event_id": "FULL-NET-081",
+              "decision_score": 0.06474,
+              "outlier": false,
+              "values": {
+                "value": 1272.0,
+                "duration": 0.16999999999999998
+              }
+            },
+            {
+              "row_index": 81,
+              "event_id": "FULL-NET-082",
+              "decision_score": 0.11277,
+              "outlier": false,
+              "values": {
+                "value": 1632.0,
+                "duration": 0.31
+              }
+            },
+            {
+              "row_index": 82,
+              "event_id": "FULL-NET-083",
+              "decision_score": 0.06371,
+              "outlier": false,
+              "values": {
+                "value": 1236.0,
+                "duration": 0.19
+              }
+            },
+            {
+              "row_index": 83,
+              "event_id": "FULL-NET-084",
+              "decision_score": 0.11146,
+              "outlier": false,
+              "values": {
+                "value": 1596.0,
+                "duration": 0.32999999999999996
+              }
+            },
+            {
+              "row_index": 84,
+              "event_id": "FULL-NET-085",
+              "decision_score": 0.0423,
+              "outlier": false,
+              "values": {
+                "value": 1200.0,
+                "duration": 0.21
+              }
+            },
+            {
+              "row_index": 85,
+              "event_id": "FULL-NET-086",
+              "decision_score": 0.11107,
+              "outlier": false,
+              "values": {
+                "value": 1560.0,
+                "duration": 0.35
+              }
+            },
+            {
+              "row_index": 86,
+              "event_id": "FULL-NET-087",
+              "decision_score": 0.04332,
+              "outlier": false,
+              "values": {
+                "value": 1920.0,
+                "duration": 0.22999999999999998
+              }
+            },
+            {
+              "row_index": 87,
+              "event_id": "FULL-NET-088",
+              "decision_score": 0.08939,
+              "outlier": false,
+              "values": {
+                "value": 1524.0,
+                "duration": 0.37
+              }
+            },
+            {
+              "row_index": 88,
+              "event_id": "FULL-NET-089",
+              "decision_score": 0.07372,
+              "outlier": false,
+              "values": {
+                "value": 1884.0,
+                "duration": 0.25
+              }
+            },
+            {
+              "row_index": 89,
+              "event_id": "FULL-NET-090",
+              "decision_score": 0.05762,
+              "outlier": false,
+              "values": {
+                "value": 1488.0,
+                "duration": 0.39
+              }
+            }
+          ],
+          "use_case": "Prioritize unusual numeric network evidence for human review; outliers are not confirmed attacks.",
+          "training_scope": "Fits and scores only the current uploaded network evidence, with no external plant data."
+        },
+        "ai_statement": "Current-file Isolation Forest screening plus explainable rules and median/MAD; no autonomous action or reactor-trained model."
+      },
+      "rejected": []
+    }
+  },
+  {
+    "fixture": "NuclearShield-IsolationForest-80-Network-Records.csv",
+    "input_sha256": "46255c600adda6d0b4339ccc143275a8e821d522a64e1ad5ae333e81b85a105d",
+    "source_unchanged": true,
+    "detail": {
+      "id": "9db4d080-bb15-47c3-a5ac-a981ce74ed8d",
+      "created_at": "2026-10-24T07:11:01.667115+00:00",
+      "filename": "NuclearShield-IsolationForest-80-Network-Records.csv",
+      "digest": "46255c600adda6d0b4339ccc143275a8e821d522a64e1ad5ae333e81b85a105d",
+      "event_count": 80,
+      "finding_count": 4,
+      "events": [
+        {
+          "event_id": "ML-NET-001",
+          "timestamp": "2026-09-27T08:00:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2100",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.2",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 1
+        },
+        {
+          "event_id": "ML-NET-002",
+          "timestamp": "2026-09-27T08:01:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2134",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.365",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 2
+        },
+        {
+          "event_id": "ML-NET-003",
+          "timestamp": "2026-09-27T08:02:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2168",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.275",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 3
+        },
+        {
+          "event_id": "ML-NET-004",
+          "timestamp": "2026-09-27T08:03:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2202",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.44",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 4
+        },
+        {
+          "event_id": "ML-NET-005",
+          "timestamp": "2026-09-27T08:04:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2236",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.35",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 5
+        },
+        {
+          "event_id": "ML-NET-006",
+          "timestamp": "2026-09-27T08:05:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2270",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.26",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 6
+        },
+        {
+          "event_id": "ML-NET-007",
+          "timestamp": "2026-09-27T08:06:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2304",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.425",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 7
+        },
+        {
+          "event_id": "ML-NET-008",
+          "timestamp": "2026-09-27T08:07:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2338",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.335",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 8
+        },
+        {
+          "event_id": "ML-NET-009",
+          "timestamp": "2026-09-27T08:08:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2372",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.245",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 9
+        },
+        {
+          "event_id": "ML-NET-010",
+          "timestamp": "2026-09-27T08:09:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2406",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.41000000000000003",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 10
+        },
+        {
+          "event_id": "ML-NET-011",
+          "timestamp": "2026-09-27T08:10:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2440",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.32",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 11
+        },
+        {
+          "event_id": "ML-NET-012",
+          "timestamp": "2026-09-27T08:11:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2474",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.23",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 12
+        },
+        {
+          "event_id": "ML-NET-013",
+          "timestamp": "2026-09-27T08:12:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2508",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.395",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 13
+        },
+        {
+          "event_id": "ML-NET-014",
+          "timestamp": "2026-09-27T08:13:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2542",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.305",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 14
+        },
+        {
+          "event_id": "ML-NET-015",
+          "timestamp": "2026-09-27T08:14:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2576",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.21500000000000002",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 15
+        },
+        {
+          "event_id": "ML-NET-016",
+          "timestamp": "2026-09-27T08:15:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2610",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.38",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 16
+        },
+        {
+          "event_id": "ML-NET-017",
+          "timestamp": "2026-09-27T08:16:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2644",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.29000000000000004",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 17
+        },
+        {
+          "event_id": "ML-NET-018",
+          "timestamp": "2026-09-27T08:17:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2678",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.2",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 18
+        },
+        {
+          "event_id": "ML-NET-019",
+          "timestamp": "2026-09-27T08:18:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2712",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.365",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 19
+        },
+        {
+          "event_id": "ML-NET-020",
+          "timestamp": "2026-09-27T08:19:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2746",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.275",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 20
+        },
+        {
+          "event_id": "ML-NET-021",
+          "timestamp": "2026-09-27T08:20:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2780",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.44",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 21
+        },
+        {
+          "event_id": "ML-NET-022",
+          "timestamp": "2026-09-27T08:21:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2814",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.35",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 22
+        },
+        {
+          "event_id": "ML-NET-023",
+          "timestamp": "2026-09-27T08:22:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2848",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.26",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 23
+        },
+        {
+          "event_id": "ML-NET-024",
+          "timestamp": "2026-09-27T08:23:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2100",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.425",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 24
+        },
+        {
+          "event_id": "ML-NET-025",
+          "timestamp": "2026-09-27T08:24:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2134",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.335",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 25
+        },
+        {
+          "event_id": "ML-NET-026",
+          "timestamp": "2026-09-27T08:25:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2168",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.245",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 26
+        },
+        {
+          "event_id": "ML-NET-027",
+          "timestamp": "2026-09-27T08:26:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2202",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.41000000000000003",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 27
+        },
+        {
+          "event_id": "ML-NET-028",
+          "timestamp": "2026-09-27T08:27:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2236",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.32",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 28
+        },
+        {
+          "event_id": "ML-NET-029",
+          "timestamp": "2026-09-27T08:28:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2270",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.23",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 29
+        },
+        {
+          "event_id": "ML-NET-030",
+          "timestamp": "2026-09-27T08:29:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2304",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.395",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 30
+        },
+        {
+          "event_id": "ML-NET-031",
+          "timestamp": "2026-09-27T08:30:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2338",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.305",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 31
+        },
+        {
+          "event_id": "ML-NET-032",
+          "timestamp": "2026-09-27T08:31:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2372",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.21500000000000002",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 32
+        },
+        {
+          "event_id": "ML-NET-033",
+          "timestamp": "2026-09-27T08:32:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2406",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.38",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 33
+        },
+        {
+          "event_id": "ML-NET-034",
+          "timestamp": "2026-09-27T08:33:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2440",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.29000000000000004",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 34
+        },
+        {
+          "event_id": "ML-NET-035",
+          "timestamp": "2026-09-27T08:34:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2474",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.2",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 35
+        },
+        {
+          "event_id": "ML-NET-036",
+          "timestamp": "2026-09-27T08:35:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2508",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.365",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 36
+        },
+        {
+          "event_id": "ML-NET-037",
+          "timestamp": "2026-09-27T08:36:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2542",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.275",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 37
+        },
+        {
+          "event_id": "ML-NET-038",
+          "timestamp": "2026-09-27T08:37:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "38000",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "8.1",
+          "context": "SYNTHETIC unusual network observation for human review",
+          "raw_row": 38
+        },
+        {
+          "event_id": "ML-NET-039",
+          "timestamp": "2026-09-27T08:38:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2610",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.35",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 39
+        },
+        {
+          "event_id": "ML-NET-040",
+          "timestamp": "2026-09-27T08:39:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2644",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.26",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 40
+        },
+        {
+          "event_id": "ML-NET-041",
+          "timestamp": "2026-09-27T08:40:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2678",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.425",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 41
+        },
+        {
+          "event_id": "ML-NET-042",
+          "timestamp": "2026-09-27T08:41:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2712",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.335",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 42
+        },
+        {
+          "event_id": "ML-NET-043",
+          "timestamp": "2026-09-27T08:42:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2746",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.245",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 43
+        },
+        {
+          "event_id": "ML-NET-044",
+          "timestamp": "2026-09-27T08:43:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2780",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.41000000000000003",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 44
+        },
+        {
+          "event_id": "ML-NET-045",
+          "timestamp": "2026-09-27T08:44:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2814",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.32",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 45
+        },
+        {
+          "event_id": "ML-NET-046",
+          "timestamp": "2026-09-27T08:45:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2848",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.23",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 46
+        },
+        {
+          "event_id": "ML-NET-047",
+          "timestamp": "2026-09-27T08:46:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2100",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.395",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 47
+        },
+        {
+          "event_id": "ML-NET-048",
+          "timestamp": "2026-09-27T08:47:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2134",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.305",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 48
+        },
+        {
+          "event_id": "ML-NET-049",
+          "timestamp": "2026-09-27T08:48:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2168",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.21500000000000002",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 49
+        },
+        {
+          "event_id": "ML-NET-050",
+          "timestamp": "2026-09-27T08:49:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2202",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.38",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 50
+        },
+        {
+          "event_id": "ML-NET-051",
+          "timestamp": "2026-09-27T08:50:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2236",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.29000000000000004",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 51
+        },
+        {
+          "event_id": "ML-NET-052",
+          "timestamp": "2026-09-27T08:51:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2270",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.2",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 52
+        },
+        {
+          "event_id": "ML-NET-053",
+          "timestamp": "2026-09-27T08:52:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2304",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.365",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 53
+        },
+        {
+          "event_id": "ML-NET-054",
+          "timestamp": "2026-09-27T08:53:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2338",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.275",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 54
+        },
+        {
+          "event_id": "ML-NET-055",
+          "timestamp": "2026-09-27T08:54:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2372",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.44",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 55
+        },
+        {
+          "event_id": "ML-NET-056",
+          "timestamp": "2026-09-27T08:55:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2406",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.35",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 56
+        },
+        {
+          "event_id": "ML-NET-057",
+          "timestamp": "2026-09-27T08:56:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2440",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.26",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 57
+        },
+        {
+          "event_id": "ML-NET-058",
+          "timestamp": "2026-09-27T08:57:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2474",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.425",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 58
+        },
+        {
+          "event_id": "ML-NET-059",
+          "timestamp": "2026-09-27T08:58:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2508",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.335",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 59
+        },
+        {
+          "event_id": "ML-NET-060",
+          "timestamp": "2026-09-27T08:59:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2542",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.245",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 60
+        },
+        {
+          "event_id": "ML-NET-061",
+          "timestamp": "2026-09-27T09:00:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2576",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.41000000000000003",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 61
+        },
+        {
+          "event_id": "ML-NET-062",
+          "timestamp": "2026-09-27T09:01:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2610",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.32",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 62
+        },
+        {
+          "event_id": "ML-NET-063",
+          "timestamp": "2026-09-27T09:02:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2644",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.23",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 63
+        },
+        {
+          "event_id": "ML-NET-064",
+          "timestamp": "2026-09-27T09:03:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2678",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.395",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 64
+        },
+        {
+          "event_id": "ML-NET-065",
+          "timestamp": "2026-09-27T09:04:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2712",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.305",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 65
+        },
+        {
+          "event_id": "ML-NET-066",
+          "timestamp": "2026-09-27T09:05:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2746",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.21500000000000002",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 66
+        },
+        {
+          "event_id": "ML-NET-067",
+          "timestamp": "2026-09-27T09:06:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2780",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.38",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 67
+        },
+        {
+          "event_id": "ML-NET-068",
+          "timestamp": "2026-09-27T09:07:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2814",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.29000000000000004",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 68
+        },
+        {
+          "event_id": "ML-NET-069",
+          "timestamp": "2026-09-27T09:08:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2848",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.2",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 69
+        },
+        {
+          "event_id": "ML-NET-070",
+          "timestamp": "2026-09-27T09:09:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2100",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.365",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 70
+        },
+        {
+          "event_id": "ML-NET-071",
+          "timestamp": "2026-09-27T09:10:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2134",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.275",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 71
+        },
+        {
+          "event_id": "ML-NET-072",
+          "timestamp": "2026-09-27T09:11:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2168",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.44",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 72
+        },
+        {
+          "event_id": "ML-NET-073",
+          "timestamp": "2026-09-27T09:12:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "29000",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "5.2",
+          "context": "SYNTHETIC unusual network observation for human review",
+          "raw_row": 73
+        },
+        {
+          "event_id": "ML-NET-074",
+          "timestamp": "2026-09-27T09:13:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2236",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.26",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 74
+        },
+        {
+          "event_id": "ML-NET-075",
+          "timestamp": "2026-09-27T09:14:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2270",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.425",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 75
+        },
+        {
+          "event_id": "ML-NET-076",
+          "timestamp": "2026-09-27T09:15:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2304",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.335",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 76
+        },
+        {
+          "event_id": "ML-NET-077",
+          "timestamp": "2026-09-27T09:16:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2338",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.245",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 77
+        },
+        {
+          "event_id": "ML-NET-078",
+          "timestamp": "2026-09-27T09:17:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2372",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.41000000000000003",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 78
+        },
+        {
+          "event_id": "ML-NET-079",
+          "timestamp": "2026-09-27T09:18:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2406",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.32",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 79
+        },
+        {
+          "event_id": "ML-NET-080",
+          "timestamp": "2026-09-27T09:19:00.000Z",
+          "event_type": "network",
+          "source": "fictional-zeek-offline",
+          "value": "2440",
+          "baseline": "2500",
+          "authorized": true,
+          "integrity": "valid",
+          "actor": "synthetic-operator",
+          "asset": "training-hmi",
+          "duration": "0.23",
+          "context": "SYNTHETIC fictional network baseline observation",
+          "raw_row": 80
+        }
+      ],
+      "findings": [
+        {
+          "event_id": "ML-NET-038",
+          "score": 100,
+          "severity": "critical",
+          "confidence": 94,
+          "engine": "baseline-rule+robust-anomaly-model+isolation-forest",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 50%",
+            "median/MAD statistical check identified unusual peer-group behavior",
+            "Isolation Forest flagged this uploaded network observation as an outlier for human review"
+          ],
+          "contributors": [
+            "baseline deviation 1420.0%",
+            "robust z-score 117.57",
+            "Isolation Forest decision score -0.29862 (negative means outlier)"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "ML-NET-073",
+          "score": 100,
+          "severity": "critical",
+          "confidence": 94,
+          "engine": "baseline-rule+robust-anomaly-model+isolation-forest",
+          "reasons": [
+            "observed value differs from its declared baseline by at least 50%",
+            "median/MAD statistical check identified unusual peer-group behavior",
+            "Isolation Forest flagged this uploaded network observation as an outlier for human review"
+          ],
+          "contributors": [
+            "baseline deviation 1060.0%",
+            "robust z-score 87.82",
+            "Isolation Forest decision score -0.27340 (negative means outlier)"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "ML-NET-001",
+          "score": 25,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "isolation-forest",
+          "reasons": [
+            "Isolation Forest flagged this uploaded network observation as an outlier for human review"
+          ],
+          "contributors": [
+            "Isolation Forest decision score -0.01947 (negative means outlier)"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        },
+        {
+          "event_id": "ML-NET-021",
+          "score": 25,
+          "severity": "low",
+          "confidence": 68,
+          "engine": "isolation-forest",
+          "reasons": [
+            "Isolation Forest flagged this uploaded network observation as an outlier for human review"
+          ],
+          "contributors": [
+            "Isolation Forest decision score -0.00518 (negative means outlier)"
+          ],
+          "related_events": [],
+          "requires_human_authorization": true
+        }
+      ],
+      "summary": {
+        "accepted_records": 80,
+        "rejected_records": 0,
+        "records_seen": 80,
+        "processing_coverage": 100.0,
+        "finding_rate": 5.0,
+        "severities": {
+          "critical": 2,
+          "high": 0,
+          "medium": 0,
+          "low": 2
+        },
+        "evidence_types": {
+          "access": 0,
+          "change": 0,
+          "integrity": 0,
+          "material": 0,
+          "network": 80,
+          "radiation": 0
+        },
+        "engines": {
+          "baseline-rule": 2,
+          "integrity-rule": 0,
+          "authorization-rule": 0,
+          "robust-anomaly-model": 2,
+          "isolation-forest": 4,
+          "correlation-engine": 0
+        },
+        "network_ml": {
+          "status": "completed",
+          "method": "scikit-learn IsolationForest",
+          "minimum_rows": 20,
+          "network_rows": 80,
+          "eligible_rows": 80,
+          "features": [
+            "value",
+            "duration"
+          ],
+          "outliers": [
+            {
+              "row_index": 0,
+              "event_id": "ML-NET-001",
+              "decision_score": -0.01947,
+              "outlier": true,
+              "values": {
+                "value": 2100.0,
+                "duration": 0.2
+              }
+            },
+            {
+              "row_index": 20,
+              "event_id": "ML-NET-021",
+              "decision_score": -0.00518,
+              "outlier": true,
+              "values": {
+                "value": 2780.0,
+                "duration": 0.44
+              }
+            },
+            {
+              "row_index": 37,
+              "event_id": "ML-NET-038",
+              "decision_score": -0.29862,
+              "outlier": true,
+              "values": {
+                "value": 38000.0,
+                "duration": 8.1
+              }
+            },
+            {
+              "row_index": 72,
+              "event_id": "ML-NET-073",
+              "decision_score": -0.2734,
+              "outlier": true,
+              "values": {
+                "value": 29000.0,
+                "duration": 5.2
+              }
+            }
+          ],
+          "scores": [
+            {
+              "row_index": 0,
+              "event_id": "ML-NET-001",
+              "decision_score": -0.01947,
+              "outlier": true,
+              "values": {
+                "value": 2100.0,
+                "duration": 0.2
+              }
+            },
+            {
+              "row_index": 1,
+              "event_id": "ML-NET-002",
+              "decision_score": 0.09931,
+              "outlier": false,
+              "values": {
+                "value": 2134.0,
+                "duration": 0.365
+              }
+            },
+            {
+              "row_index": 2,
+              "event_id": "ML-NET-003",
+              "decision_score": 0.10713,
+              "outlier": false,
+              "values": {
+                "value": 2168.0,
+                "duration": 0.275
+              }
+            },
+            {
+              "row_index": 3,
+              "event_id": "ML-NET-004",
+              "decision_score": 0.05851,
+              "outlier": false,
+              "values": {
+                "value": 2202.0,
+                "duration": 0.44
+              }
+            },
+            {
+              "row_index": 4,
+              "event_id": "ML-NET-005",
+              "decision_score": 0.11721,
+              "outlier": false,
+              "values": {
+                "value": 2236.0,
+                "duration": 0.35
+              }
+            },
+            {
+              "row_index": 5,
+              "event_id": "ML-NET-006",
+              "decision_score": 0.11878,
+              "outlier": false,
+              "values": {
+                "value": 2270.0,
+                "duration": 0.26
+              }
+            },
+            {
+              "row_index": 6,
+              "event_id": "ML-NET-007",
+              "decision_score": 0.10454,
+              "outlier": false,
+              "values": {
+                "value": 2304.0,
+                "duration": 0.425
+              }
+            },
+            {
+              "row_index": 7,
+              "event_id": "ML-NET-008",
+              "decision_score": 0.13856,
+              "outlier": false,
+              "values": {
+                "value": 2338.0,
+                "duration": 0.335
+              }
+            },
+            {
+              "row_index": 8,
+              "event_id": "ML-NET-009",
+              "decision_score": 0.13416,
+              "outlier": false,
+              "values": {
+                "value": 2372.0,
+                "duration": 0.245
+              }
+            },
+            {
+              "row_index": 9,
+              "event_id": "ML-NET-010",
+              "decision_score": 0.115,
+              "outlier": false,
+              "values": {
+                "value": 2406.0,
+                "duration": 0.41000000000000003
+              }
+            },
+            {
+              "row_index": 10,
+              "event_id": "ML-NET-011",
+              "decision_score": 0.13842,
+              "outlier": false,
+              "values": {
+                "value": 2440.0,
+                "duration": 0.32
+              }
+            },
+            {
+              "row_index": 11,
+              "event_id": "ML-NET-012",
+              "decision_score": 0.13238,
+              "outlier": false,
+              "values": {
+                "value": 2474.0,
+                "duration": 0.23
+              }
+            },
+            {
+              "row_index": 12,
+              "event_id": "ML-NET-013",
+              "decision_score": 0.11029,
+              "outlier": false,
+              "values": {
+                "value": 2508.0,
+                "duration": 0.395
+              }
+            },
+            {
+              "row_index": 13,
+              "event_id": "ML-NET-014",
+              "decision_score": 0.12799,
+              "outlier": false,
+              "values": {
+                "value": 2542.0,
+                "duration": 0.305
+              }
+            },
+            {
+              "row_index": 14,
+              "event_id": "ML-NET-015",
+              "decision_score": 0.08941,
+              "outlier": false,
+              "values": {
+                "value": 2576.0,
+                "duration": 0.21500000000000002
+              }
+            },
+            {
+              "row_index": 15,
+              "event_id": "ML-NET-016",
+              "decision_score": 0.09884,
+              "outlier": false,
+              "values": {
+                "value": 2610.0,
+                "duration": 0.38
+              }
+            },
+            {
+              "row_index": 16,
+              "event_id": "ML-NET-017",
+              "decision_score": 0.12846,
+              "outlier": false,
+              "values": {
+                "value": 2644.0,
+                "duration": 0.29000000000000004
+              }
+            },
+            {
+              "row_index": 17,
+              "event_id": "ML-NET-018",
+              "decision_score": 0.05888,
+              "outlier": false,
+              "values": {
+                "value": 2678.0,
+                "duration": 0.2
+              }
+            },
+            {
+              "row_index": 18,
+              "event_id": "ML-NET-019",
+              "decision_score": 0.09768,
+              "outlier": false,
+              "values": {
+                "value": 2712.0,
+                "duration": 0.365
+              }
+            },
+            {
+              "row_index": 19,
+              "event_id": "ML-NET-020",
+              "decision_score": 0.09328,
+              "outlier": false,
+              "values": {
+                "value": 2746.0,
+                "duration": 0.275
+              }
+            },
+            {
+              "row_index": 20,
+              "event_id": "ML-NET-021",
+              "decision_score": -0.00518,
+              "outlier": true,
+              "values": {
+                "value": 2780.0,
+                "duration": 0.44
+              }
+            },
+            {
+              "row_index": 21,
+              "event_id": "ML-NET-022",
+              "decision_score": 0.04864,
+              "outlier": false,
+              "values": {
+                "value": 2814.0,
+                "duration": 0.35
+              }
+            },
+            {
+              "row_index": 22,
+              "event_id": "ML-NET-023",
+              "decision_score": 0.04586,
+              "outlier": false,
+              "values": {
+                "value": 2848.0,
+                "duration": 0.26
+              }
+            },
+            {
+              "row_index": 23,
+              "event_id": "ML-NET-024",
+              "decision_score": 0.03668,
+              "outlier": false,
+              "values": {
+                "value": 2100.0,
+                "duration": 0.425
+              }
+            },
+            {
+              "row_index": 24,
+              "event_id": "ML-NET-025",
+              "decision_score": 0.09952,
+              "outlier": false,
+              "values": {
+                "value": 2134.0,
+                "duration": 0.335
+              }
+            },
+            {
+              "row_index": 25,
+              "event_id": "ML-NET-026",
+              "decision_score": 0.09218,
+              "outlier": false,
+              "values": {
+                "value": 2168.0,
+                "duration": 0.245
+              }
+            },
+            {
+              "row_index": 26,
+              "event_id": "ML-NET-027",
+              "decision_score": 0.09662,
+              "outlier": false,
+              "values": {
+                "value": 2202.0,
+                "duration": 0.41000000000000003
+              }
+            },
+            {
+              "row_index": 27,
+              "event_id": "ML-NET-028",
+              "decision_score": 0.12293,
+              "outlier": false,
+              "values": {
+                "value": 2236.0,
+                "duration": 0.32
+              }
+            },
+            {
+              "row_index": 28,
+              "event_id": "ML-NET-029",
+              "decision_score": 0.11577,
+              "outlier": false,
+              "values": {
+                "value": 2270.0,
+                "duration": 0.23
+              }
+            },
+            {
+              "row_index": 29,
+              "event_id": "ML-NET-030",
+              "decision_score": 0.12258,
+              "outlier": false,
+              "values": {
+                "value": 2304.0,
+                "duration": 0.395
+              }
+            },
+            {
+              "row_index": 30,
+              "event_id": "ML-NET-031",
+              "decision_score": 0.13086,
+              "outlier": false,
+              "values": {
+                "value": 2338.0,
+                "duration": 0.305
+              }
+            },
+            {
+              "row_index": 31,
+              "event_id": "ML-NET-032",
+              "decision_score": 0.10107,
+              "outlier": false,
+              "values": {
+                "value": 2372.0,
+                "duration": 0.21500000000000002
+              }
+            },
+            {
+              "row_index": 32,
+              "event_id": "ML-NET-033",
+              "decision_score": 0.1242,
+              "outlier": false,
+              "values": {
+                "value": 2406.0,
+                "duration": 0.38
+              }
+            },
+            {
+              "row_index": 33,
+              "event_id": "ML-NET-034",
+              "decision_score": 0.1426,
+              "outlier": false,
+              "values": {
+                "value": 2440.0,
+                "duration": 0.29000000000000004
+              }
+            },
+            {
+              "row_index": 34,
+              "event_id": "ML-NET-035",
+              "decision_score": 0.07626,
+              "outlier": false,
+              "values": {
+                "value": 2474.0,
+                "duration": 0.2
+              }
+            },
+            {
+              "row_index": 35,
+              "event_id": "ML-NET-036",
+              "decision_score": 0.12423,
+              "outlier": false,
+              "values": {
+                "value": 2508.0,
+                "duration": 0.365
+              }
+            },
+            {
+              "row_index": 36,
+              "event_id": "ML-NET-037",
+              "decision_score": 0.13923,
+              "outlier": false,
+              "values": {
+                "value": 2542.0,
+                "duration": 0.275
+              }
+            },
+            {
+              "row_index": 37,
+              "event_id": "ML-NET-038",
+              "decision_score": -0.29862,
+              "outlier": true,
+              "values": {
+                "value": 38000.0,
+                "duration": 8.1
+              }
+            },
+            {
+              "row_index": 38,
+              "event_id": "ML-NET-039",
+              "decision_score": 0.11074,
+              "outlier": false,
+              "values": {
+                "value": 2610.0,
+                "duration": 0.35
+              }
+            },
+            {
+              "row_index": 39,
+              "event_id": "ML-NET-040",
+              "decision_score": 0.12139,
+              "outlier": false,
+              "values": {
+                "value": 2644.0,
+                "duration": 0.26
+              }
+            },
+            {
+              "row_index": 40,
+              "event_id": "ML-NET-041",
+              "decision_score": 0.06572,
+              "outlier": false,
+              "values": {
+                "value": 2678.0,
+                "duration": 0.425
+              }
+            },
+            {
+              "row_index": 41,
+              "event_id": "ML-NET-042",
+              "decision_score": 0.10709,
+              "outlier": false,
+              "values": {
+                "value": 2712.0,
+                "duration": 0.335
+              }
+            },
+            {
+              "row_index": 42,
+              "event_id": "ML-NET-043",
+              "decision_score": 0.09546,
+              "outlier": false,
+              "values": {
+                "value": 2746.0,
+                "duration": 0.245
+              }
+            },
+            {
+              "row_index": 43,
+              "event_id": "ML-NET-044",
+              "decision_score": 0.06856,
+              "outlier": false,
+              "values": {
+                "value": 2780.0,
+                "duration": 0.41000000000000003
+              }
+            },
+            {
+              "row_index": 44,
+              "event_id": "ML-NET-045",
+              "decision_score": 0.07204,
+              "outlier": false,
+              "values": {
+                "value": 2814.0,
+                "duration": 0.32
+              }
+            },
+            {
+              "row_index": 45,
+              "event_id": "ML-NET-046",
+              "decision_score": 0.04672,
+              "outlier": false,
+              "values": {
+                "value": 2848.0,
+                "duration": 0.23
+              }
+            },
+            {
+              "row_index": 46,
+              "event_id": "ML-NET-047",
+              "decision_score": 0.05983,
+              "outlier": false,
+              "values": {
+                "value": 2100.0,
+                "duration": 0.395
+              }
+            },
+            {
+              "row_index": 47,
+              "event_id": "ML-NET-048",
+              "decision_score": 0.09268,
+              "outlier": false,
+              "values": {
+                "value": 2134.0,
+                "duration": 0.305
+              }
+            },
+            {
+              "row_index": 48,
+              "event_id": "ML-NET-049",
+              "decision_score": 0.05732,
+              "outlier": false,
+              "values": {
+                "value": 2168.0,
+                "duration": 0.21500000000000002
+              }
+            },
+            {
+              "row_index": 49,
+              "event_id": "ML-NET-050",
+              "decision_score": 0.10176,
+              "outlier": false,
+              "values": {
+                "value": 2202.0,
+                "duration": 0.38
+              }
+            },
+            {
+              "row_index": 50,
+              "event_id": "ML-NET-051",
+              "decision_score": 0.12601,
+              "outlier": false,
+              "values": {
+                "value": 2236.0,
+                "duration": 0.29000000000000004
+              }
+            },
+            {
+              "row_index": 51,
+              "event_id": "ML-NET-052",
+              "decision_score": 0.05719,
+              "outlier": false,
+              "values": {
+                "value": 2270.0,
+                "duration": 0.2
+              }
+            },
+            {
+              "row_index": 52,
+              "event_id": "ML-NET-053",
+              "decision_score": 0.12939,
+              "outlier": false,
+              "values": {
+                "value": 2304.0,
+                "duration": 0.365
+              }
+            },
+            {
+              "row_index": 53,
+              "event_id": "ML-NET-054",
+              "decision_score": 0.13565,
+              "outlier": false,
+              "values": {
+                "value": 2338.0,
+                "duration": 0.275
+              }
+            },
+            {
+              "row_index": 54,
+              "event_id": "ML-NET-055",
+              "decision_score": 0.04188,
+              "outlier": false,
+              "values": {
+                "value": 2372.0,
+                "duration": 0.44
+              }
+            },
+            {
+              "row_index": 55,
+              "event_id": "ML-NET-056",
+              "decision_score": 0.12801,
+              "outlier": false,
+              "values": {
+                "value": 2406.0,
+                "duration": 0.35
+              }
+            },
+            {
+              "row_index": 56,
+              "event_id": "ML-NET-057",
+              "decision_score": 0.13757,
+              "outlier": false,
+              "values": {
+                "value": 2440.0,
+                "duration": 0.26
+              }
+            },
+            {
+              "row_index": 57,
+              "event_id": "ML-NET-058",
+              "decision_score": 0.08442,
+              "outlier": false,
+              "values": {
+                "value": 2474.0,
+                "duration": 0.425
+              }
+            },
+            {
+              "row_index": 58,
+              "event_id": "ML-NET-059",
+              "decision_score": 0.12901,
+              "outlier": false,
+              "values": {
+                "value": 2508.0,
+                "duration": 0.335
+              }
+            },
+            {
+              "row_index": 59,
+              "event_id": "ML-NET-060",
+              "decision_score": 0.12798,
+              "outlier": false,
+              "values": {
+                "value": 2542.0,
+                "duration": 0.245
+              }
+            },
+            {
+              "row_index": 60,
+              "event_id": "ML-NET-061",
+              "decision_score": 0.08397,
+              "outlier": false,
+              "values": {
+                "value": 2576.0,
+                "duration": 0.41000000000000003
+              }
+            },
+            {
+              "row_index": 61,
+              "event_id": "ML-NET-062",
+              "decision_score": 0.12425,
+              "outlier": false,
+              "values": {
+                "value": 2610.0,
+                "duration": 0.32
+              }
+            },
+            {
+              "row_index": 62,
+              "event_id": "ML-NET-063",
+              "decision_score": 0.11477,
+              "outlier": false,
+              "values": {
+                "value": 2644.0,
+                "duration": 0.23
+              }
+            },
+            {
+              "row_index": 63,
+              "event_id": "ML-NET-064",
+              "decision_score": 0.08548,
+              "outlier": false,
+              "values": {
+                "value": 2678.0,
+                "duration": 0.395
+              }
+            },
+            {
+              "row_index": 64,
+              "event_id": "ML-NET-065",
+              "decision_score": 0.1134,
+              "outlier": false,
+              "values": {
+                "value": 2712.0,
+                "duration": 0.305
+              }
+            },
+            {
+              "row_index": 65,
+              "event_id": "ML-NET-066",
+              "decision_score": 0.07849,
+              "outlier": false,
+              "values": {
+                "value": 2746.0,
+                "duration": 0.21500000000000002
+              }
+            },
+            {
+              "row_index": 66,
+              "event_id": "ML-NET-067",
+              "decision_score": 0.07329,
+              "outlier": false,
+              "values": {
+                "value": 2780.0,
+                "duration": 0.38
+              }
+            },
+            {
+              "row_index": 67,
+              "event_id": "ML-NET-068",
+              "decision_score": 0.07445,
+              "outlier": false,
+              "values": {
+                "value": 2814.0,
+                "duration": 0.29000000000000004
+              }
+            },
+            {
+              "row_index": 68,
+              "event_id": "ML-NET-069",
+              "decision_score": 0.00027,
+              "outlier": false,
+              "values": {
+                "value": 2848.0,
+                "duration": 0.2
+              }
+            },
+            {
+              "row_index": 69,
+              "event_id": "ML-NET-070",
+              "decision_score": 0.06208,
+              "outlier": false,
+              "values": {
+                "value": 2100.0,
+                "duration": 0.365
+              }
+            },
+            {
+              "row_index": 70,
+              "event_id": "ML-NET-071",
+              "decision_score": 0.09109,
+              "outlier": false,
+              "values": {
+                "value": 2134.0,
+                "duration": 0.275
+              }
+            },
+            {
+              "row_index": 71,
+              "event_id": "ML-NET-072",
+              "decision_score": 0.04136,
+              "outlier": false,
+              "values": {
+                "value": 2168.0,
+                "duration": 0.44
+              }
+            },
+            {
+              "row_index": 72,
+              "event_id": "ML-NET-073",
+              "decision_score": -0.2734,
+              "outlier": true,
+              "values": {
+                "value": 29000.0,
+                "duration": 5.2
+              }
+            },
+            {
+              "row_index": 73,
+              "event_id": "ML-NET-074",
+              "decision_score": 0.1192,
+              "outlier": false,
+              "values": {
+                "value": 2236.0,
+                "duration": 0.26
+              }
+            },
+            {
+              "row_index": 74,
+              "event_id": "ML-NET-075",
+              "decision_score": 0.08959,
+              "outlier": false,
+              "values": {
+                "value": 2270.0,
+                "duration": 0.425
+              }
+            },
+            {
+              "row_index": 75,
+              "event_id": "ML-NET-076",
+              "decision_score": 0.13423,
+              "outlier": false,
+              "values": {
+                "value": 2304.0,
+                "duration": 0.335
+              }
+            },
+            {
+              "row_index": 76,
+              "event_id": "ML-NET-077",
+              "decision_score": 0.13241,
+              "outlier": false,
+              "values": {
+                "value": 2338.0,
+                "duration": 0.245
+              }
+            },
+            {
+              "row_index": 77,
+              "event_id": "ML-NET-078",
+              "decision_score": 0.11625,
+              "outlier": false,
+              "values": {
+                "value": 2372.0,
+                "duration": 0.41000000000000003
+              }
+            },
+            {
+              "row_index": 78,
+              "event_id": "ML-NET-079",
+              "decision_score": 0.13544,
+              "outlier": false,
+              "values": {
+                "value": 2406.0,
+                "duration": 0.32
+              }
+            },
+            {
+              "row_index": 79,
+              "event_id": "ML-NET-080",
+              "decision_score": 0.13731,
+              "outlier": false,
+              "values": {
+                "value": 2440.0,
+                "duration": 0.23
+              }
+            }
+          ],
+          "use_case": "Prioritize unusual numeric network evidence for human review; outliers are not confirmed attacks.",
+          "training_scope": "Fits and scores only the current uploaded network evidence, with no external plant data."
+        },
+        "ai_statement": "Current-file Isolation Forest screening plus explainable rules and median/MAD; no autonomous action or reactor-trained model."
+      },
+      "rejected": []
+    }
+  }
+]
