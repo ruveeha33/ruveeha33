@@ -34,7 +34,7 @@ At **[HR-Presents](https://github.com/HR-Presents)**, I work alongside **[Haziq 
 
 | Project | Work and contribution | Explore |
 | :--- | :--- | :--- |
-| **[NuclearShield](https://github.com/ruveeha33/NuclearShield)** | Read-only educational nuclear cybersecurity evidence analysis: provenance, findings, assurance, audit and application observability | [Case study and demo](demo-gallery.md#nuclearshield) |
+| **[NuclearShield](https://github.com/ruveeha33/NuclearShield)** | Read-only educational nuclear cybersecurity evidence analysis: provenance, findings, assurance, audit and application observability | [Case study and demo](demo-gallery.md#nuclearshield) · [Verified source run](verification.md) |
 | **[Sentrix V1](demo-gallery.md#sentrix-v1)** | Joint HR-Presents product combining Bandit, Pylint, Radon, Black and syntax checks with structured reporting | [Public product overview](demo-gallery.md#sentrix-v1) |
 | **[AegisLog](https://github.com/HR-Presents/AegisLog)** | Joint defensive log investigation product with source-preserving analysis, evidence review and local HTML reports | [Demonstration and evidence](demo-gallery.md#aegislog) |
 | **[AI Log Analyzer](https://github.com/ruveeha33/AI-Log-Analyzer)** | Developed the **Flask backend and API handling**; Haziq contributed frontend/API integration and Ambreen contributed classification logic | [Full team credits](https://github.com/ruveeha33/AI-Log-Analyzer#team-roles) |
@@ -42,6 +42,8 @@ At **[HR-Presents](https://github.com/HR-Presents)**, I work alongside **[Haziq 
 | **[Jira Python Automation](https://github.com/ruveeha33/jira-python-automation-bot)** | Joint Python REST API project for Jira issue creation and workflow tasks | [Repository](https://github.com/ruveeha33/jira-python-automation-bot) |
 
 **[Open the demo gallery →](demo-gallery.md)** Project context, original evidence, contributor roles and operating limits.
+
+[![NuclearShield Linux source run — 34 tests passed on 24 October 2026](https://img.shields.io/badge/NuclearShield_Linux_source_run-34_tests_passed_%C2%B7_24_Oct_2026-22C55E?style=for-the-badge&logo=pytest&logoColor=white)](verification.md)
 
 **More work:** [SFVDS](https://github.com/ruveeha33/sfvds) · [Smart Mount Manager](https://github.com/ruveeha33/Smart_Mount_Manager) · [LinuxOps Enterprise Lab](https://github.com/HaziqBinAfzal/linuxops-enterprise-lab)  
 **Learning evidence:** [AWS Cloud Practitioner](https://github.com/ruveeha33/Trained-AWS-Cloud-Practitioner) · [Generative AI training](https://github.com/ruveeha33/Trained-AWS-Generative-AI-Practitioner) · [ISC2 domain courses](https://github.com/ruveeha33/ISC2-CC-Training-Certs-Repo)
