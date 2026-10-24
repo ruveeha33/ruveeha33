@@ -4,41 +4,77 @@
 
 # Ruveeha Ashfaq
 
-Co-Founder & CEO at [HR-Presents](https://github.com/HR-Presents) · Udemy Instructor  
+![Co-Founder & CEO](https://img.shields.io/badge/Co--Founder_%26_CEO-7C3AED?style=for-the-badge&logoColor=white)
+![Udemy Instructor](https://img.shields.io/badge/Udemy_Instructor-A435F0?style=for-the-badge&logo=udemy&logoColor=white)
+![HR-Presents](https://img.shields.io/badge/HR--Presents-DB2777?style=for-the-badge&logoColor=white)
+
 Mandi Bahauddin, Pakistan · AIOPS Level 6 student
 
-[LinkedIn](https://www.linkedin.com/in/ruveeha-ashfaq/) · [GitHub](https://github.com/ruveeha33) · [HR-Presents](https://github.com/HR-Presents)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ruveeha-ashfaq/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ruveeha33)
+[![HR-Presents](https://img.shields.io/badge/HR--Presents-DB2777?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HR-Presents)
 
-[Projects](#featured-engineering-work) · [Demo gallery](demo-gallery.md) · [Tech stack](#tech-stack) · [Courses](#our-udemy-courses) · [Credentials](#credentials--training) · [Background](professional-background.md)
+[Projects](#featured-engineering-work) · [Demo gallery](demo-gallery.md) · [Tech stack](#-tech-stack) · [Courses](#our-udemy-courses) · [Credentials](#credentials--training) · [Background](professional-background.md)
 
 </div>
 
 ---
 
-I work on Python applications, Linux systems and security tools. I’m currently studying AIOPS Level 6 and building projects with Haziq at HR-Presents.
+Python, Linux and defensive security projects, built through study, hands-on labs and collaboration.
+
+<img src="./section-divider.svg" width="100%" alt="" />
 
 ## Featured engineering work
 
-- **[NuclearShield](https://github.com/ruveeha33/NuclearShield)** — An educational, read-only tool for reviewing offline security evidence. It records provenance, flags findings and supports assurance and audit review. [Walkthrough](demo-gallery.md#nuclearshield) · [Verified run](verification.md)
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/ruveeha33/NuclearShield"><img src="./card-nuclearshield.svg" width="100%" alt="NuclearShield — Cybersecurity evidence & assurance" /></a>
+<p>Read-only educational nuclear cybersecurity evidence analysis: provenance, findings, assurance, audit and application observability</p>
+<p><a href="demo-gallery.md#nuclearshield">Case study and demo</a> · <a href="verification.md">Verified source run</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="demo-gallery.md#sentrix-v1"><img src="./card-sentrix.svg" width="100%" alt="Sentrix V1 — Python security & code quality" /></a>
+<p>Joint HR-Presents product combining Bandit, Pylint, Radon, Black and syntax checks with structured reporting</p>
+<p><a href="demo-gallery.md#sentrix-v1">Public product overview</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/HR-Presents/AegisLog"><img src="./card-aegislog.svg" width="100%" alt="AegisLog — Defensive log investigation" /></a>
+<p>Joint defensive log investigation product with source-preserving analysis, evidence review and local HTML reports</p>
+<p><a href="demo-gallery.md#aegislog">Demonstration and evidence</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/ruveeha33/AI-Log-Analyzer"><img src="./card-ai-log.svg" width="100%" alt="AI Log Analyzer — Collaborative log-analysis dashboard" /></a>
+<p>Developed the <strong>Flask backend and API handling</strong>; Haziq contributed frontend/API integration and Ambreen contributed classification logic</p>
+<p><a href="https://github.com/ruveeha33/AI-Log-Analyzer#team-roles">Full team credits</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/ruveeha33/linux-backup-recovery-system"><img src="./card-linux-backup.svg" width="100%" alt="Linux Backup & Recovery — Documented backup & restoration" /></a>
+<p>Team workflow using rsync, tar, GPG, SHA256, SSH and cron, documented through restoration evidence</p>
+<p><a href="professional-background.md#project-contributions-and-credits">Workflow and contributors</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/ruveeha33/jira-python-automation-bot"><img src="./card-jira.svg" width="100%" alt="Jira Python Automation — Issue creation & workflow tasks" /></a>
+<p>Joint Python REST API project for Jira issue creation and workflow tasks</p>
+<p><a href="https://github.com/ruveeha33/jira-python-automation-bot">Repository</a></p>
+</td>
+</tr>
+</table>
 
-- **[Sentrix V1](demo-gallery.md#sentrix-v1)** — A Python code-analysis application Haziq and I developed at HR-Presents. It brings Bandit, Pylint, Radon, Black and syntax checks into one workflow. [Product overview](demo-gallery.md#sentrix-v1)
+**[Open the demo gallery →](demo-gallery.md)** Project context, original evidence, contributor roles and operating limits.
 
-- **[AegisLog](https://github.com/HR-Presents/AegisLog)** — Our defensive log-investigation tool. It preserves source logs and produces findings, evidence reviews and local HTML reports. [Demo and evidence](demo-gallery.md#aegislog)
-
-- **[AI Log Analyzer](https://github.com/ruveeha33/AI-Log-Analyzer)** — I developed the Flask backend and API handling. Haziq worked on the frontend and API integration; Ambreen contributed the classification logic. [Team credits](https://github.com/ruveeha33/AI-Log-Analyzer#team-roles)
-
-- **[Linux Backup & Recovery](https://github.com/ruveeha33/linux-backup-recovery-system)** — A team project covering backups and restoration with rsync, tar, GPG, SHA256, SSH and cron. [Workflow and contributors](professional-background.md#project-contributions-and-credits)
-
-- **[Jira Python Automation](https://github.com/ruveeha33/jira-python-automation-bot)** — A joint Python project for creating Jira issues and handling workflow tasks through the REST API.
-
-[Demo gallery](demo-gallery.md) — walkthroughs, evidence, team contributions and project limitations.
-
-NuclearShield verification: **34 tests passed, 1 warning** in the Linux source run on 24 October 2026. [Results and methods](verification.md).
+[![NuclearShield Linux source run — 34 tests passed on 24 October 2026](https://img.shields.io/badge/NuclearShield_Linux_source_run-34_tests_passed_%C2%B7_24_Oct_2026-22C55E?style=for-the-badge&logo=pytest&logoColor=white)](verification.md)
 
 **More work:** [SFVDS](https://github.com/ruveeha33/sfvds) · [Smart Mount Manager](https://github.com/ruveeha33/Smart_Mount_Manager) · [LinuxOps Enterprise Lab](https://github.com/HaziqBinAfzal/linuxops-enterprise-lab)  
 **Learning evidence:** [AWS Cloud Practitioner](https://github.com/ruveeha33/Trained-AWS-Cloud-Practitioner) · [Generative AI training](https://github.com/ruveeha33/Trained-AWS-Generative-AI-Practitioner) · [ISC2 domain courses](https://github.com/ruveeha33/ISC2-CC-Training-Certs-Repo)
 
-## Tech stack
+<img src="./section-divider.svg" width="100%" alt="" />
+
+## 💻 Tech Stack
 
 | Area | Tools and topics |
 | --- | --- |
@@ -50,20 +86,29 @@ NuclearShield verification: **34 tests passed, 1 warning** in the Linux source r
 
 Some of these tools appear in my projects; others are part of my ongoing studies. [Skills and learning context](professional-background.md#skills-and-learning).
 
+<img src="./section-divider.svg" width="100%" alt="" />
+
 ## Collaboration & teaching
 
-I co-founded HR-Presents with **Haziq Afzal, Co-Founder & CTO**. We also create and teach Udemy courses together.
+<img src="./founders-panel.svg" width="100%" alt="HR-Presents founders: Ruveeha Ashfaq — Co-Founder &amp; CEO; Haziq Afzal — Co-Founder &amp; CTO" />
 
-Haziq: [GitHub](https://github.com/HaziqBinAfzal) · [LinkedIn](https://www.linkedin.com/in/haziq-afzal/)
+**Haziq Afzal — Co-Founder & CTO, HR-Presents · Udemy Instructor**  
+[GitHub](https://github.com/HaziqBinAfzal) · [LinkedIn](https://www.linkedin.com/in/haziq-afzal/)
 
 ### Our Udemy courses
 
 Co-created and co-presented by **Ruveeha Ashfaq and Haziq Afzal** under HR-Presents.
 
-- **[Docker Pro Skills: Build, Secure & Deploy Applications](https://www.udemy.com/course/docker-mastery-from-beginner-to-job-ready/)** — Containers, images, Dockerfiles, Compose, networking, storage, security, troubleshooting and application delivery.
-- **[Think Before You Click: The Online Safety Course](https://www.udemy.com/course/think-before-you-click-the-online-safety-course/)** — Scams, phishing, account protection, privacy, AI deepfakes and safer everyday digital decisions.
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://www.udemy.com/course/docker-mastery-from-beginner-to-job-ready/"><img src="./card-course-docker.svg" width="100%" alt="Docker Pro Skills: Build, Secure &amp; Deploy Applications" /></a><p>Containers, images, Dockerfiles, Compose, networking, storage, security, troubleshooting and application delivery</p></td>
+<td width="50%" valign="top"><a href="https://www.udemy.com/course/think-before-you-click-the-online-safety-course/"><img src="./card-course-safety.svg" width="100%" alt="Think Before You Click: The Online Safety Course" /></a><p>Scams, phishing, account protection, privacy, AI deepfakes and safer everyday digital decisions</p></td>
+</tr>
+</table>
 
 Our shared work includes lesson preparation, demonstrations, recording, quizzes, presentations and downloadable practice materials.
+
+<img src="./section-divider.svg" width="100%" alt="" />
 
 ## GitHub activity & languages
 
@@ -75,6 +120,8 @@ Our shared work includes lesson preparation, demonstrations, recording, quizzes,
 </p>
 
 <sub>Contribution chart: dated snapshot of GitHub’s displayed calendar, with October partial; click for the source counts. Statistics and language cards use external services. Language distribution can include documentation and learning repositories and does not measure proficiency. See GitHub’s contribution calendar below for current activity.</sub>
+
+<img src="./section-divider.svg" width="100%" alt="" />
 
 ## Background
 
@@ -102,6 +149,8 @@ In progress · Aug 2025–Feb 2027 expected.
 
 </details>
 
+<img src="./section-divider.svg" width="100%" alt="" />
+
 ## Credentials & training
 
 <details>
@@ -124,6 +173,10 @@ I welcome early-career opportunities in Python development, security analysis an
 
 [Full professional background](professional-background.md) · [LinkedIn](https://www.linkedin.com/in/ruveeha-ashfaq/) · [HR-Presents](https://github.com/HR-Presents)
 
+
+
 ---
+
+<img src="./profile-footer.svg" width="100%" alt="Build thoughtfully. Explain clearly. Keep learning." />
 
 <p align="center"><a href="#featured-engineering-work">Explore projects</a> · <a href="https://www.linkedin.com/in/ruveeha-ashfaq/">Connect on LinkedIn</a> · <a href="#our-udemy-courses">View courses</a></p>
