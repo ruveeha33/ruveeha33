@@ -128,10 +128,10 @@ jobs:
               body = text(24, 34, name + "'s GitHub Stats", 20, ACCENT, True)
               for i, (label, value) in enumerate(rows):
                   y = 72+i*28
-                  body += f'<circle cx="27" cy="{y-5}" r="4" fill="#{SECOND}"/>' + text(42, y, label, 13, TEXT, True) + text(265, y, '—' if value is None else f'{value:,}', 14, TEXT, True)
+                  body += f'<circle cx="27" cy="{y-5}" r="4" fill="#{SECOND}"/>' + text(42, y, label, 15, TEXT, True) + text(265, y, '—' if value is None else f'{value:,}', 15, TEXT, True)
               body += f'<circle cx="403" cy="124" r="49" fill="none" stroke="#{ACCENT}" stroke-width="5" stroke-opacity=".28"/><circle cx="403" cy="124" r="39" fill="none" stroke="#{SECOND}" stroke-width="2"/>'
               body += text(388, 131, 'GH', 20, ACCENT, True)
-              body += text(24, 224, 'Updated '+STAMP, 10, TEXT)
+              body += text(24, 224, 'Updated '+STAMP, 12, TEXT)
               return f'<svg xmlns="http://www.w3.org/2000/svg" width="495" height="240" viewBox="0 0 495 240"><title>{esc(name)} GitHub statistics, automatically refreshed</title><rect width="495" height="240" rx="6" fill="#{BG}"/>{body}</svg>'
           
           
@@ -154,14 +154,14 @@ jobs:
                   x = 88+i*1052/max(1,len(rows)-1); y = 256-count/ceiling*156
                   points.append((x,y))
                   label=dt.datetime.strptime(month,'%Y-%m').strftime('%b %y')
-                  body += text(x-18,279,label,11,TEXT)
+                  body += text(x-25,282,label,16,TEXT)
               if points:
                   path=' '.join(f'{x},{y}' for x,y in points)
                   area=f'{points[0][0]},256 '+path+f' {points[-1][0]},256'
                   body += f'<polygon points="{area}" fill="#{ACCENT}" fill-opacity=".10"/><polyline points="{path}" fill="none" stroke="#{ACCENT}" stroke-width="3"/>'
                   for (x,y),(month,count) in zip(points,rows):
                       body += f'<circle cx="{x}" cy="{y}" r="4" fill="#{SECOND}"><title>{month}: {count} contributions</title></circle>'
-              body += text(28,315,'First and current months may be partial. GitHub activity counts are not a quality or proficiency score.',13,TEXT)
+              body += text(28,315,'First and current months may be partial. Activity counts do not measure skill or quality.',17,TEXT)
               return svg(ACCOUNT+' automatically refreshed monthly development graph',body,340)
           
           def languages_card(data):
@@ -173,13 +173,13 @@ jobs:
               body = text(22, 34, 'Most Used Languages', 20, ACCENT, True)
               x = 22
               for i, (name,value) in enumerate(main):
-                  width = value/total*306 if total else 0
+                  width = value/total*451 if total else 0
                   body += f'<rect x="{x}" y="56" width="{width}" height="10" fill="#{colors[i]}"/>'; x += width
-                  col=i%2; row=i//2; xx=22+col*157; yy=96+row*31
-                  body += f'<circle cx="{xx+4}" cy="{yy-4}" r="4" fill="#{colors[i]}"/>' + text(xx+14,yy,f'{name} {value/total*100:.1f}%',11,TEXT)
+                  col=i%2; row=i//2; xx=22+col*225; yy=96+row*31
+                  body += f'<circle cx="{xx+4}" cy="{yy-4}" r="4" fill="#{colors[i]}"/>' + text(xx+14,yy,f'{name} {value/total*100:.1f}%',15,TEXT)
               if not main: body += text(22,98,'No public language bytes available',12,TEXT)
-              body += text(22,197,'Public non-fork code / byte-weighted',10,TEXT) + text(22,224,'Updated '+STAMP,10,TEXT)
-              return f'<svg xmlns="http://www.w3.org/2000/svg" width="350" height="240" viewBox="0 0 350 240"><title>Most used public code languages, automatically refreshed</title><rect width="350" height="240" rx="6" fill="#{BG}"/>{body}</svg>'
+              body += text(22,197,'Public non-fork code / byte-weighted',12,TEXT) + text(22,224,'Updated '+STAMP,12,TEXT)
+              return f'<svg xmlns="http://www.w3.org/2000/svg" width="495" height="240" viewBox="0 0 495 240"><title>Most used public code languages, automatically refreshed</title><rect width="495" height="240" rx="6" fill="#{BG}"/>{body}</svg>'
           
           def card(title, category, lines):
               body = text(28, 38, category, 15, SECOND) + text(28, 92, title, 34, ACCENT, True)
@@ -193,6 +193,8 @@ jobs:
               save('stats.svg', stat_card(data)); save('activity.svg', calendar_card(data)); save('languages.svg', languages_card(data))
               save('data.json', json.dumps(data, indent=2) + '\n')
               readme = Path('README.md').read_text()
+              readme = readme.replace('width="53%"', 'width="49%"').replace('width="43%"', 'width="49%"')
+              readme = re.sub(r'\n### Shared products & courses\n[\s\S]*?<!-- SHARED-CONTENT:END -->', '', readme)
               readme = readme.replace('## Development activity', '## Development graph').replace('## GitHub activity & languages', '## GitHub graphs & languages')
               readme = readme.replace('Contribution_calendar-', 'Development_graph-').replace('Automatically refreshed rolling-year GitHub contribution activity', 'Automatically refreshed monthly GitHub development graph').replace('Automatically refreshed rolling-year GitHub activity', 'Automatically refreshed monthly GitHub development graph')
           
