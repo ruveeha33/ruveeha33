@@ -204,8 +204,6 @@ jobs:
                   readme = re.sub(r'<img[^>]*src="https://github-readme-stats\.vercel\.app/api/top-langs/[^"\n]*"[^>]*/>', '<img src="./assets/dynamic/languages.svg" width="43%" alt="Automatically refreshed public non-fork language distribution" />', readme)
                   readme = re.sub(r'alt="GitHub contribution activity snapshot[^"]*"', 'alt="Automatically refreshed rolling-year GitHub contribution activity"', readme)
                   readme = re.sub(r'<sub>(?:Dated snapshot|Contribution chart:)[\s\S]*?</sub>', '<sub>Automatically refreshed every six hours. Cards show the last successful refresh time. Public non-fork language share is not a proficiency score. Historical verification retains its date.</sub>', readme)
-                  if '<!-- SHARED-CONTENT:START -->' not in readme:
-                      readme += '\n\n### Shared products & courses\n\n<!-- SHARED-CONTENT:START -->\n<!-- SHARED-CONTENT:END -->\n'.replace('\n', '\n')
               previous_path = OUT / 'shared-state.json'
               previous = json.loads(previous_path.read_text()) if previous_path.exists() else shared
               for key, item in shared['items'].items():
