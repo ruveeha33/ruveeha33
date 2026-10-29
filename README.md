@@ -226,18 +226,3 @@ I welcome early-career opportunities in Python development, security analysis an
 
 
 
-### Shared products & courses
-
-<!-- SHARED-CONTENT:START -->
-**Sentrix V1** — Python security and code-quality review with structured findings and reports.  
-[![Open Sentrix V1](https://img.shields.io/badge/Sentrix%20V1-C084FC?style=flat-square)](https://github.com/HaziqBinAfzal/HaziqBinAfzal/blob/main/docs/case-studies/sentrix.md)
-
-**AegisLog** — Local defensive log investigation, retained evidence and HTML reports.  
-[![Open AegisLog](https://img.shields.io/badge/AegisLog-C084FC?style=flat-square)](https://github.com/HR-Presents/AegisLog)
-
-**Docker Pro Skills** — Build, secure and deploy applications with containers, Compose and practical labs.  
-[![Open Docker Pro Skills](https://img.shields.io/badge/Docker%20Pro%20Skills-C084FC?style=flat-square)](https://www.udemy.com/course/docker-mastery-from-beginner-to-job-ready/)
-
-**Think Before You Click** — Online safety through scam recognition, account protection and practical scenarios.  
-[![Open Think Before You Click](https://img.shields.io/badge/Think%20Before%20You%20Click-C084FC?style=flat-square)](https://www.udemy.com/course/think-before-you-click-the-online-safety-course/)
-<!-- SHARED-CONTENT:END -->
