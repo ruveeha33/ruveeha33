@@ -152,9 +152,9 @@ Our shared work includes lesson preparation, demonstrations, recording, quizzes,
 
 <img src="./section-divider.svg" width="100%" alt="" />
 
-## GitHub activity & languages
+## GitHub graphs & languages
 
-<a href="./assets/dynamic/data.json"><img src="./assets/dynamic/activity.svg" width="100%" alt="Automatically refreshed rolling-year GitHub contribution activity" /></a>
+<a href="./assets/dynamic/data.json"><img src="./assets/dynamic/activity.svg" width="100%" alt="Automatically refreshed monthly GitHub development graph" /></a>
 
 <p align="center">
 <img src="./assets/dynamic/stats.svg" width="53%" alt="Automatically refreshed public GitHub statistics" />
