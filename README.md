@@ -154,14 +154,14 @@ Our shared work includes lesson preparation, demonstrations, recording, quizzes,
 
 ## GitHub activity & languages
 
-<a href="./contribution-data.json"><img src="./contribution-activity.svg" width="100%" alt="GitHub contribution activity snapshot, January through 24 October 2026; October is partial" /></a>
+<a href="./assets/dynamic/data.json"><img src="./assets/dynamic/activity.svg" width="100%" alt="Automatically refreshed rolling-year GitHub contribution activity" /></a>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=ruveeha33&amp;show_icons=true&amp;hide_border=true&amp;bg_color=131426&amp;title_color=C084FC&amp;icon_color=22D3EE&amp;text_color=C7C2D8&amp;rank_icon=github" width="49%" alt="Ruveeha's public GitHub activity statistics" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ruveeha33&amp;layout=compact&amp;hide_border=true&amp;bg_color=131426&amp;title_color=C084FC&amp;text_color=C7C2D8&amp;langs_count=6" width="49%" alt="Language distribution in Ruveeha's public repositories" />
+<img src="./assets/dynamic/stats.svg" width="53%" alt="Automatically refreshed public GitHub statistics" />
+<img src="./assets/dynamic/languages.svg" width="43%" alt="Automatically refreshed public non-fork language distribution" />
 </p>
 
-<sub>Contribution chart: dated snapshot of GitHub’s displayed calendar, with October partial; click for the source counts. Statistics and language cards use external services. Language distribution can include documentation and learning repositories and does not measure proficiency. See GitHub’s contribution calendar below for current activity.</sub>
+<sub>Automatically refreshed every six hours. Cards show the last successful refresh time. Public non-fork language share is not a proficiency score. Historical verification retains its date.</sub>
 
 <img src="./section-divider.svg" width="100%" alt="" />
 
@@ -222,3 +222,20 @@ I welcome early-career opportunities in Python development, security analysis an
 <img src="./profile-footer.svg" width="100%" alt="Build thoughtfully. Explain clearly. Keep learning." />
 
 <p align="center"><a href="#featured-engineering-work">Explore projects</a> · <a href="https://www.linkedin.com/in/ruveeha-ashfaq/">Connect on LinkedIn</a> · <a href="#our-udemy-courses">View courses</a></p>
+
+
+### Shared products & courses
+
+<!-- SHARED-CONTENT:START -->
+**Sentrix V1** — Python security and code-quality review with structured findings and reports.  
+[![Open Sentrix V1](https://img.shields.io/badge/Sentrix%20V1-C084FC?style=flat-square)](https://github.com/HaziqBinAfzal/HaziqBinAfzal/blob/main/docs/case-studies/sentrix.md)
+
+**AegisLog** — Local defensive log investigation, retained evidence and HTML reports.  
+[![Open AegisLog](https://img.shields.io/badge/AegisLog-C084FC?style=flat-square)](https://github.com/HR-Presents/AegisLog)
+
+**Docker Pro Skills** — Build, secure and deploy applications with containers, Compose and practical labs.  
+[![Open Docker Pro Skills](https://img.shields.io/badge/Docker%20Pro%20Skills-C084FC?style=flat-square)](https://www.udemy.com/course/docker-mastery-from-beginner-to-job-ready/)
+
+**Think Before You Click** — Online safety through scam recognition, account protection and practical scenarios.  
+[![Open Think Before You Click](https://img.shields.io/badge/Think%20Before%20You%20Click-C084FC?style=flat-square)](https://www.udemy.com/course/think-before-you-click-the-online-safety-course/)
+<!-- SHARED-CONTENT:END -->
