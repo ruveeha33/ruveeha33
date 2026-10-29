@@ -157,8 +157,8 @@ Our shared work includes lesson preparation, demonstrations, recording, quizzes,
 <a href="./assets/dynamic/data.json"><img src="./assets/dynamic/activity.svg" width="100%" alt="Automatically refreshed monthly GitHub development graph" /></a>
 
 <p align="center">
-<img src="./assets/dynamic/stats.svg" width="53%" alt="Automatically refreshed public GitHub statistics" />
-<img src="./assets/dynamic/languages.svg" width="43%" alt="Automatically refreshed public non-fork language distribution" />
+<img src="./assets/dynamic/stats.svg" width="49%" alt="Automatically refreshed public GitHub statistics" />
+<img src="./assets/dynamic/languages.svg" width="49%" alt="Automatically refreshed public non-fork language distribution" />
 </p>
 
 <sub>Automatically refreshed every six hours. Cards show the last successful refresh time. Public non-fork language share is not a proficiency score. Historical verification retains its date.</sub>
@@ -222,6 +222,8 @@ I welcome early-career opportunities in Python development, security analysis an
 <img src="./profile-footer.svg" width="100%" alt="Build thoughtfully. Explain clearly. Keep learning." />
 
 <p align="center"><a href="#featured-engineering-work">Explore projects</a> · <a href="https://www.linkedin.com/in/ruveeha-ashfaq/">Connect on LinkedIn</a> · <a href="#our-udemy-courses">View courses</a></p>
+
+
 
 
 ### Shared products & courses
